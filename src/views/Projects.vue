@@ -24,13 +24,6 @@
           src="../assets/logo.png"
         />
       </vs-col>
-    </vs-row>
-    <vs-row
-      vs-align="center"
-      vs-type="flex"
-      vs-justify="space-around"
-      vs-w="12"
-    >
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
         <ProjectCard
           :title="cards[2].title"
@@ -38,13 +31,6 @@
           src="../assets/logo.png"
         />
       </vs-col>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard
-          :title="cards[3].title"
-          :description="cards[3].description"
-          src="../assets/logo.png"
-        />
-      </vs-col>
     </vs-row>
     <vs-row
       vs-align="center"
@@ -52,6 +38,13 @@
       vs-justify="space-around"
       vs-w="12"
     >
+      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
+        <ProjectCard
+          :title="cards[3].title"
+          :description="cards[3].description"
+          src="../assets/logo.png"
+        />
+      </vs-col>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
         <ProjectCard
           :title="cards[4].title"
