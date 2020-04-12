@@ -12,9 +12,12 @@
           <router-link to="/">Armin Varshokar</router-link>
         </vs-navbar-title>
       </div> -->
-      <router-link to="/"
-        ><vs-avatar icon="home" color="#ff1e56" size="large"
-      /></router-link>
+      <vs-navbar-item index="0">
+        <router-link to="/"
+          ><vs-avatar icon="home" color="#ff1e56" size="large"
+        /></router-link>
+      </vs-navbar-item>
+
       <vs-navbar-item index="1">
         <router-link to="/education">Education</router-link>
       </vs-navbar-item>

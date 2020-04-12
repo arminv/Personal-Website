@@ -3,21 +3,28 @@
     <vs-card actionable>
       <div slot="header">
         <h3>
-          {{ title }}
+          {{ card.title }}
         </h3>
       </div>
       <div slot="media">
-        <img src="../assets/logo.png" />
+        <img :src="resolve_img_url(card.src)" />
       </div>
       <div>
-        <span>
-          {{ description }}
-        </span>
+        <h2>
+          {{ card.description }}
+        </h2>
       </div>
       <div slot="footer">
+        <vs-row vs-justify="flex-start">
+          <span>
+            <vs-chip v-for="tag in card.tags" :key="tag" color="danger">
+              {{ tag }}
+            </vs-chip>
+          </span>
+        </vs-row>
         <vs-row vs-justify="flex-end">
-          <vs-chip color="primary">
-            <vs-avatar icon="link" color="#389CFF" />
+          <vs-chip color="primary" class="project-link">
+            <vs-avatar icon="link" color="#389CFF" class="project-link" />
             See Live
           </vs-chip>
         </vs-row>
@@ -29,13 +36,31 @@
 <script>
 export default {
   data: () => ({}),
-  props: ["title", "description"],
-  methods: {}
+  props: ["card"],
+  methods: {
+    resolve_img_url: function(path) {
+      let images = require.context("../assets/", false, /\.png$|\.jpg$/);
+      return images("./" + path);
+    }
+  }
 };
 </script>
 
 <style scoped>
-.card {
-  margin: 15%;
+.project-link:hover {
+  cursor: context-menu;
 }
+
+.con-vs-card {
+  /* margin: 15%; */
+  /* display: block; */
+  background: #5f5e5e;
+  color: white;
+  padding: 5%;
+}
+
+/* p {
+  width: auto;
+  height: auto;
+} */
 </style>
