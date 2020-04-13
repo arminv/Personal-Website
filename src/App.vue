@@ -55,4 +55,11 @@ body {
   position: fixed;
   width: inherit;
 } */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+.page h1 {
+  color: rgb(139, 165, 189);
+  margin-bottom: 1rem;
+  font-family: "Quicksand", sans-serif;
+}
 </style>

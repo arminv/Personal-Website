@@ -1,23 +1,21 @@
 <template>
   <div class="page">
-    <br />
-    <br />
-    <br />
-    <br />
+    <h1>Projects</h1>
     <vs-row
       vs-align="center"
       vs-type="flex"
       vs-justify="space-around"
       vs-w="12"
     >
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[0]" />
-      </vs-col>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[1]" />
-      </vs-col>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[2]" />
+      <vs-col
+        v-for="i in 3"
+        :key="i"
+        vs-type="flex"
+        vs-justify="center"
+        vs-align="center"
+        vs-w="4"
+      >
+        <ProjectCard :card="cards[i - 1]" />
       </vs-col>
     </vs-row>
     <vs-row
@@ -26,14 +24,15 @@
       vs-justify="space-around"
       vs-w="12"
     >
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[3]" />
-      </vs-col>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[4]" />
-      </vs-col>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
-        <ProjectCard :card="cards[5]" />
+      <vs-col
+        v-for="i in 3"
+        :key="i"
+        vs-type="flex"
+        vs-justify="center"
+        vs-align="center"
+        vs-w="4"
+      >
+        <ProjectCard :card="cards[i + 2]" />
       </vs-col>
     </vs-row>
   </div>
@@ -48,52 +47,64 @@ export default {
       type: "shadow",
       cards: [
         {
-          title: "Card 1",
+          title: "Project 1",
           description: `
             This is my project one's description.
-            `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
-        },
-        {
-          title: "Card 2",
-          description: `
             This is my project one's description.
             `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
         },
         {
-          title: "Card 3",
+          title: "Project 2",
           description: `
             This is my project one's description.
-            `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
-        },
-        {
-          title: "Card 4",
-          description: `
-            This is my project one's description. 
-            `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
-        },
-        {
-          title: "Card 5",
-          description: `
             This is my project one's description.
             `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
         },
         {
-          title: "Card 6",
+          title: "Project 3",
           description: `
             This is my project one's description.
+            This is my project one's description.
             `,
-          src: "logo.png",
-          tags: ["Vue", "Vuesax"]
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
+        },
+        {
+          title: "Project 4",
+          description: `
+            This is my project one's description.
+            This is my project one's description.
+            `,
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
+        },
+        {
+          title: "Project 5",
+          description: `
+            This is my project one's description.
+            This is my project one's description.
+            `,
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
+        },
+        {
+          title: "Project 6",
+          description: `
+            This is my project one's description.
+            This is my project one's description.
+            `,
+          src: "logo.gif",
+          tags: ["Vue", "Vuesax"],
+          github: "https://github.com/arminv"
         }
       ]
     };
@@ -104,4 +115,16 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.vs-row {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 2em;
+  /* padding-bottom: 2em; */
+}
+
+.vs-col {
+  padding-left: 3em;
+  padding-right: 4em;
+}
+</style>

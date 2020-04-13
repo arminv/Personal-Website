@@ -2,17 +2,19 @@
   <div class="card">
     <vs-card actionable>
       <div slot="header">
-        <h3>
-          {{ card.title }}
-        </h3>
+        <h2>
+          <i>
+            {{ card.title }}
+          </i>
+        </h2>
       </div>
       <div slot="media">
         <img :src="resolve_img_url(card.src)" />
       </div>
       <div>
-        <h2>
+        <h3>
           {{ card.description }}
-        </h2>
+        </h3>
       </div>
       <div slot="footer">
         <vs-row vs-justify="flex-start">
@@ -23,10 +25,12 @@
           </span>
         </vs-row>
         <vs-row vs-justify="flex-end">
-          <vs-chip color="primary" class="project-link">
-            <vs-avatar icon="link" color="#389CFF" class="project-link" />
-            See Live
-          </vs-chip>
+          <a :href="card.github" target="_blank">
+            <vs-chip color="primary" class="project-link">
+              <vs-avatar icon="code" color="#389CFF" class="project-link" />
+              See Code
+            </vs-chip>
+          </a>
         </vs-row>
       </div>
     </vs-card>
@@ -39,7 +43,7 @@ export default {
   props: ["card"],
   methods: {
     resolve_img_url: function(path) {
-      let images = require.context("../assets/", false, /\.png$|\.jpg$/);
+      let images = require.context("../assets/", false, /\.png$|\.jpg$|\.gif$/);
       return images("./" + path);
     }
   }
@@ -52,15 +56,15 @@ export default {
 }
 
 .con-vs-card {
-  /* margin: 15%; */
-  /* display: block; */
-  background: #5f5e5e;
+  background: #777676;
   color: white;
-  padding: 5%;
+  margin-bottom: 30%;
+  /* margin-top: 20%; */
+  box-shadow: 2px 5px #389cff;
+  /* padding-bottom: 3em; */
 }
 
-/* p {
-  width: auto;
-  height: auto;
-} */
+.vs-card--content {
+  min-height: 15em;
+}
 </style>

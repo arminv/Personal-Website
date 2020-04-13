@@ -44,14 +44,19 @@ export default {
 <style scoped>
 .nabarx {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
+  margin-bottom: 3rem;
+  /* align-items: center; */
   /* margin-top: 2rem; */
-  margin-bottom: 2rem;
+  /* color: #323232; */
 }
 
 .vs-navbar--item a {
   font-size: large;
-  /* color: #42b983; */
+  /* color: #71a5c8; */
+}
+
+.vs-navbar--btn-responsive {
+  background: white;
 }
 </style>
