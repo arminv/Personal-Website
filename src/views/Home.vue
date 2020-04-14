@@ -1,8 +1,22 @@
 <template>
   <div class="page">
-    <vs-row>
+    <vs-row class="name-title">
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <h1 class="typewriter">Armin Varshokar</h1>
+        <vue-typer
+          :text="['Armin Varshokar']"
+          :repeat="Infinity"
+          :shuffle="false"
+          initial-action="typing"
+          :pre-type-delay="1200"
+          :type-delay="90"
+          :pre-erase-delay="2000"
+          :erase-delay="250"
+          erase-style="clear"
+          :erase-on-complete="false"
+          caret-animation="smooth"
+        >
+          <!-- <h1 class="typewriter">Armin Varshokar</h1> -->
+        </vue-typer>
       </vs-col>
     </vs-row>
     <br />
@@ -17,17 +31,15 @@
     </vs-row>
     <vs-row>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <transition
-      enter-active-class="animated rotateInUpRight"
-    >
-        <p class="intro">
-          Welcome to my website. <br /> My name is Armin and I am a product manager and
-          front-end developer at Finneo, a commercial real estate financing
-          startup. <br />My background is in finance, but I have been
-          learning programming on my own for the past 3 years. <br />It
-          has been an extremely exctiting journey so far and I have enjoyed
-          every single day of it.
-        </p>
+        <transition>
+          <p class="intro">
+            Welcome to my website. <br />
+            My name is Armin and I am a product manager and front-end developer
+            at Finneo, a commercial real estate financing startup. <br />My
+            background is in finance, but I have been learning programming on my
+            own for the past 3 years. <br />It has been an extremely exctiting
+            journey so far and I have enjoyed every single day of it.
+          </p>
         </transition>
       </vs-col>
     </vs-row>
@@ -42,19 +54,36 @@ export default {
 };
 </script>
 
-<style lang="css">
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css";
+<style lang="css" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
 .intro {
-font-size: 1.7em;
+  /* animation-duration: 5s;
+  animation-delay: 0.5s; */
+  font-size: 1.7em;
   margin-top: 2.5em;
   font-family: "Barlow Condensed", sans-serif;
   margin-left: 1.5em;
   margin-right: 1.5em;
   line-height: 3.4em;
-  padding-bottom: 3.5rem;
+  padding-bottom: 3.5em;
   color: white;
   text-align: center;
   text-justify: inter-word;
-} 
+}
+</style>
+<style lang="scss">
+.vue-typer {
+  margin-bottom: 1rem;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.5em;
+}
+
+.vue-typer .custom.char {
+  color: rgb(183, 211, 238);
+}
+
+.vue-typer .custom.caret {
+  width: 7px;
+  background-color: whitesmoke;
+}
 </style>

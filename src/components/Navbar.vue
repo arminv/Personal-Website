@@ -5,13 +5,8 @@
       class="nabarx"
       active-text-color="#389CFF"
       text-color="white"
-      color="#1E1E1E"
+      color="black"
     >
-      <!-- <div slot="title">
-        <vs-navbar-title>
-          <router-link to="/">Armin Varshokar</router-link>
-        </vs-navbar-title>
-      </div> -->
       <vs-navbar-item index="0">
         <router-link to="/"
           ><vs-avatar icon="home" color="#ff1e56" size="large"
@@ -44,19 +39,14 @@ export default {
 <style scoped>
 .nabarx {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 3rem;
   /* align-items: center; */
   /* margin-top: 2rem; */
   /* color: #323232; */
 }
-
 .vs-navbar--item a {
   font-size: large;
   /* color: #71a5c8; */
-}
-
-.vs-navbar--btn-responsive {
-  background: white;
 }
 </style>

@@ -117,9 +117,9 @@ export default {
 
 <style scoped>
 .vs-row {
-  padding-left: 5em;
-  padding-right: 5em;
-  padding-top: 2em;
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 3em;
   /* padding-bottom: 2em; */
 }
 

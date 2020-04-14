@@ -75,7 +75,8 @@ export default {
 }
 
 .timeline-top {
-  padding-top: 3.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 /* Shrink the thumbnail size: */
