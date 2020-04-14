@@ -5,7 +5,7 @@
       class="nabarx"
       active-text-color="#389CFF"
       text-color="white"
-      color="#323232"
+      color="#1E1E1E"
     >
       <!-- <div slot="title">
         <vs-navbar-title>

@@ -2,7 +2,7 @@
   <div class="page">
     <vs-row>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <h1>Armin Varshokar</h1>
+        <h1 class="typewriter">Armin Varshokar</h1>
       </vs-col>
     </vs-row>
     <br />
@@ -15,22 +15,20 @@
         />
       </vs-col>
     </vs-row>
-    <vs-row
-      vs-align="center"
-      vs-type="flex"
-      vs-justify="space-around"
-      vs-w="12"
-      class="intro"
+    <vs-row>
+      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+        <transition
+      enter-active-class="animated rotateInUpRight"
     >
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="6">
-        <p>
-          Welcome to my website. My name is Armin and I am a product manager and
+        <p class="intro">
+          Welcome to my website. <br /> My name is Armin and I am a product manager and
           front-end developer at Finneo, a commercial real estate financing
-          startup. <br /><br />My background is in finance, but I have been
-          learning programming on my own for the past 3 years. <br /><br />It
+          startup. <br />My background is in finance, but I have been
+          learning programming on my own for the past 3 years. <br />It
           has been an extremely exctiting journey so far and I have enjoyed
           every single day of it.
         </p>
+        </transition>
       </vs-col>
     </vs-row>
     <br />
@@ -44,16 +42,19 @@ export default {
 };
 </script>
 
-<style scoped>
-/* @import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+<style lang="css">
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css";
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap");
 .intro {
-  font-size: 2em;
-  margin-top: 2rem;
-  /* font-family: "Nanum Brush Script", cursive; */
-  font-family: "Caveat", cursive;
-  color: rgb(139, 165, 189);
-  text-align: auto;
+font-size: 1.7em;
+  margin-top: 2.5em;
+  font-family: "Barlow Condensed", sans-serif;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  line-height: 3.4em;
+  padding-bottom: 3.5rem;
+  color: white;
+  text-align: center;
   text-justify: inter-word;
-}
+} 
 </style>
