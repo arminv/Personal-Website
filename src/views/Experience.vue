@@ -15,7 +15,7 @@
             title="Product Manager | Front-End Developer"
             description="- Oversee feature development<br />- Report and fix bugs<br />- Coordinate with remote teams<br />- Quality Assurance (QA) "
             icon="code"
-            color="orange"
+            color="purple"
             :thumbnail="resolve_img_url('finneo.png')"
           />
           <vue-timeline-update
@@ -23,21 +23,21 @@
             title="Financial Analyst"
             description="- Real estate underwriting and reporting"
             icon="edit"
-            color="blue"
+            color="red"
             :thumbnail="resolve_img_url('r2.png')"
           />
           <vue-timeline-update
             :date="new Date('2018-11-01')"
             title="Volunteer - PyCon Canada"
             icon="flag"
-            color="green"
+            color="turquoise"
             :thumbnail="resolve_img_url('pycon.png')"
           />
           <vue-timeline-update
             :date="new Date('2018-11-01')"
             title="Open-Source Contributor - Pandas"
             icon="code"
-            color="purple"
+            color="blue"
             :thumbnail="resolve_img_url('pandas.png')"
             description="- Got all 4 Pull Requests merged into pandas"
             is-last

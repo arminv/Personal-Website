@@ -11,45 +11,53 @@
       >
         <div class="timeline">
           <vue-timeline-update
-            :date="new Date('2017-02-26')"
-            title="v2.2.0 - Initial D"
-            description="Today I am thrilled to announce the release of Vue.js 2.2.0."
-            icon="code"
-            color="red"
-            :thumbnail="resolve_img_url('logo.jpg')"
-          />
-          <vue-timeline-update
-            :date="new Date('2016-11-22')"
-            title="v2.1.0 - Hunter X Hunter"
-            description="Today I am thrilled to announce the release of Vue.js 2.1.0."
+            :date="new Date('2018-06-01')"
+            title="Passed CFA Exam Levels I & II"
+            description="Passed both exams on first attempt"
             icon="edit"
-            color="turquoise"
-            :thumbnail="resolve_img_url('logo.jpg')"
+            color="purple"
+            :thumbnail="resolve_img_url('cfa.png')"
           />
           <vue-timeline-update
-            :date="new Date('2016-09-30')"
-            title="v2.0.0 - Ghost in the Shell"
-            description="Today I am thrilled to announce the release of Vue.js 2.0.0"
+            :date="new Date('2017-11-01')"
+            title="Canadian Securities Course (CSC)"
+            description="Honours, Final Mark of 90%"
+            icon="edit"
+            color="red"
+            :thumbnail="resolve_img_url('csi.png')"
+          />
+          <vue-timeline-update
+            :date="new Date('2017-07-01')"
+            title="Visiting Student"
+            description="Numerical Methods / Simulation and the Monte Carlo Methods / Biology"
+            icon="done"
+            color="turquoise"
+            :thumbnail="resolve_img_url('york.png')"
+          />
+          <vue-timeline-update
+            :date="new Date('2015-08-01')"
+            title="B.Sc. with Honours (Finance)"
+            description="First Class Honours (1:1) - Cumulative GPA of 3.7/4.0"
             icon="done"
             color="white"
-            :thumbnail="resolve_img_url('logo.jpg')"
+            :thumbnail="resolve_img_url('cass.png')"
           />
           <vue-timeline-update
-            :date="new Date('2016-09-30')"
-            title="v2.0.0 - Ghost in the Shell"
-            description="Today I am thrilled to announce the release of Vue.js 2.0.0"
-            icon="done_outline"
-            color="green"
-            :thumbnail="resolve_img_url('logo.jpg')"
-          />
-          <vue-timeline-update
-            :date="new Date('2016-09-30')"
-            title="v2.0.0 - Ghost in the Shell"
-            description="Today I am thrilled to announce the release of Vue.js 2.0.0"
-            icon="code"
+            :date="new Date('2014-09-01')"
+            title="Student Exchange Program (1 year)"
+            icon="done"
             color="blue"
+            :thumbnail="resolve_img_url('queens.png')"
+          />
+          <vue-timeline-update
+            :date="new Date('2011-09-01')"
+            title="A-Levels"
+            description="Mathematics, Further Mathematics, Physics"
+            icon="done"
+            color="orange"
             is-last
-            :thumbnail="resolve_img_url('logo.jpg')"
+            :thumbnail="resolve_img_url('brighton.png')"
+            islast
           />
         </div>
       </vs-col>
