@@ -23,8 +23,8 @@ export default {
         image: "fab fa-linkedin",
         link: "https://www.linkedin.com/in/arminvarshokar/"
       }
-    ],
-    dark: true
+    ]
+    // dark: true
   })
 };
 </script>
@@ -34,6 +34,11 @@ export default {
   background-color: black;
   padding: 10px 0px 10px 0px !important;
 }
+
+a {
+  color: inherit;
+}
+
 /* .dark-mode {
   display: flex;
   justify-content: center;

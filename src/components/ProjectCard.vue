@@ -60,7 +60,7 @@ export default {
   color: white;
   margin-bottom: 30%;
   /* margin-top: 20%; */
-  box-shadow: 2px 5px #389cff;
+  box-shadow: 1px 1px #389cff;
   /* padding-bottom: 3em; */
 }
 

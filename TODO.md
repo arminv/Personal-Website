@@ -1,22 +1,23 @@
 **TODO**:
 
 - Add a dark mode to the store and use it on everypage
-- Add content for projects (gif + description of technologies used), education and experience timelines
+- Add content for Projects (gif + description of technologies used), Education and Experience timelines
 - Add a modal for each project card (own component)
+- Add a row at the bottom of Projects page to include all the technologies I'm familiar with/used
+- Upload resume on AWS and link it on Experience page.
+- Add a 'Have a great {dayOfTheWeek}!' on contact page
+- Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page
 
 **Colors**:
 
 - rgb(139, 165, 189)
 - #389cff
 - background: linear-gradient(
-    90deg,
-    rgb(213, 235, 235),
-    rgba(193, 195, 224, 0.42),
-    rgba(216, 216, 194, 0.42)
+  90deg,
+  rgb(213, 235, 235),
+  rgba(193, 195, 224, 0.42),
+  rgba(216, 216, 194, 0.42)
   );
-
-
-
 
  <!-- <vue-typer
           :text="[
@@ -34,9 +35,7 @@
           caret-animation="smooth"
         ></vue-typer> -->
 
-
-
-<!-- 
+<!--
 .vue-typer {
   font-size: 1.7em;
   margin-top: 2.5em;
@@ -46,15 +45,15 @@
   line-height: 2.4em;
   padding-bottom: 3.5rem;
 }
-.vue-typer .custom.char 
+.vue-typer .custom.char
 {
   color: white;
   text-align: justify;
   text-justify: inter-word;
 }
-.vue-typer .custom.caret 
+.vue-typer .custom.caret
 {
   width: 5px;
   background-color: whitesmoke;
-} 
+}
 -->

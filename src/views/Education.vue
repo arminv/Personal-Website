@@ -71,7 +71,7 @@ export default {
 <style>
 /* Set font-family of timeline (according to the docs): */
 [class^="gb-"]:not(.gb-base-icon) {
-  font-family: "Quicksand", sans-serif, Arial, Helvetica !important;
+  font-family: "Amiri", sans-serif, Arial, Helvetica !important;
 }
 
 .timeline-top {

@@ -19,8 +19,10 @@ export default {
 };
 </script>
 <style>
+/* @import url("https://fonts.googleapis.com/css2?family=Amiri&display=swap"); */
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Amiri, Helvetica, Arial, sans-serif;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -35,11 +37,12 @@ body {
   animation-duration: 2s;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 .page h1 {
   color: rgb(183, 211, 238);
-  margin-bottom: 1rem;
-  font-family: "Quicksand", sans-serif;
+  margin-bottom: 2rem;
+  font-family: "Amiri", serif;
+  font-weight: 500;
+  font-size: 3.6rem;
 }
 
 .vs-navbar--btn-responsive .btn-responsive-line {
