@@ -32,12 +32,16 @@ body {
   background: #18181e;
 }
 
+footer {
+  z-index: -1 !important;
+}
 .animated {
   animation-duration: 3s;
 }
 
 .page h1 {
-  color: #dec79b;
+  /* color: #dec79b; */
+  color: whitesmoke;
   margin-bottom: 2rem;
   font-family: "Amiri", serif;
   font-weight: 500;
@@ -51,7 +55,7 @@ body {
 
 /* -------------------- */
 .vs-navbar--btn-responsive .btn-responsive-line {
-  background: #18181e !important;
+  background: whitesmoke !important;
 }
 /* -------------------- */
 /* Set font-family of timelines (according to the docs): */

@@ -58,7 +58,7 @@ export default {
   color: white;
   margin-bottom: 30%;
   /* margin-top: 20%; */
-  box-shadow: 2px 1px whitesmoke;
+  box-shadow: 2px 1px #dec79b;
   /* padding-bottom: 3em; */
   max-width: 20rem;
 }

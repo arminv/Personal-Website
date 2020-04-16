@@ -1,6 +1,7 @@
 <template>
   <div class="page intro-container">
     <vs-row>
+      <!-- <img :src="resolve_img_url('goldBars.png')" class="gold-bars" /> -->
       <vs-avatar
         class="avatar"
         size="170px"
@@ -36,7 +37,13 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  methods: {
+    resolve_img_url: function(path) {
+      let images = require.context("../assets/", false, /\.png$|\.jpg$|\.gif$/);
+      return images("./" + path);
+    }
+  }
 };
 </script>
 
@@ -62,11 +69,17 @@ export default {
   align-content: left;
   text-align: left;
   text-justify: inter-word;
-  max-width: 65rem;
+  max-width: 55rem;
   font-weight: 100;
 }
 .gold {
   color: #dec79b;
+}
+
+.gold-bars {
+  justify: right;
+  z-index: -1;
+  max-width: 500px;
 }
 
 .avatar {
