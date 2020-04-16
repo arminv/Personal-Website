@@ -3,13 +3,13 @@
     <vs-navbar
       v-model="activeItem"
       class="nabarx"
-      active-text-color="#389CFF"
-      text-color="white"
-      color="black"
+      active-text-color="#DEC79B"
+      text-color="black"
+      color="#F4F4F4"
     >
       <vs-navbar-item index="0">
         <router-link to="/"
-          ><vs-avatar icon="home" color="#ff1e56" size="large"
+          ><vs-avatar icon="home" color="#373737" size="large"
         /></router-link>
       </vs-navbar-item>
 

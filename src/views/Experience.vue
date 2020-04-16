@@ -13,15 +13,15 @@
           <vue-timeline-update
             :date="new Date('2019-08-01')"
             title="Product Manager | Front-End Developer"
-            description="- Oversee feature development<br />- Report and fix bugs<br />- Coordinate with remote teams<br />- Quality Assurance (QA) "
+            description="<li>Overseeing feature development</li><li>Reporting (via JIRA) and fixing bugs (in React)</li><li>Coordinating with remote teams</li><li>Quality Assurance (QA)</li>"
             icon="code"
-            color="purple"
+            color="red"
             :thumbnail="resolve_img_url('finneo.png')"
           />
           <vue-timeline-update
             :date="new Date('2018-12-01')"
             title="Financial Analyst"
-            description="- Real estate underwriting and reporting"
+            description="<li>Commercial real estate underwriting</li><li>Optimized capital structure of various projects (construction, land, etc.)</li><li>Helped clients secure $20MM in commercial real estate funds (mortgages)</li>"
             icon="edit"
             color="red"
             :thumbnail="resolve_img_url('r2.png')"
@@ -30,17 +30,17 @@
             :date="new Date('2018-11-01')"
             title="Volunteer - PyCon Canada"
             icon="flag"
-            color="turquoise"
+            color="red"
             :thumbnail="resolve_img_url('pycon.png')"
           />
           <vue-timeline-update
             :date="new Date('2018-11-01')"
             title="Open-Source Contributor - Pandas"
             icon="code"
-            color="blue"
+            color="red"
             :thumbnail="resolve_img_url('pandas.png')"
-            description="- Got all 4 Pull Requests merged into pandas"
-            is-last
+            description="<li>Got all 4 of my Pull Requests merged into pandas</li>"
+            isLast
           />
         </div>
       </vs-col>
@@ -59,24 +59,4 @@ export default {
 };
 </script>
 
-<style>
-/* Set font-family of timeline (according to the docs): */
-[class^="gb-"]:not(.gb-base-icon) {
-  font-family: "Amiri", sans-serif, Arial, Helvetica !important;
-}
-
-.timeline-top {
-  padding-top: 3em;
-  padding-bottom: 4em;
-}
-
-/* Shrink the thumbnail size: */
-.gb-vue-timeline-update__thumbnail {
-  max-width: 15rem !important;
-  max-height: 6rem !important;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-</style>
+<style></style>

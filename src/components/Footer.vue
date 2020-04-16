@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .v-card__subtitle {
-  background-color: black;
+  background-color: #18181E;
   padding: 10px 0px 10px 0px !important;
 }
 

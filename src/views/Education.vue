@@ -13,33 +13,33 @@
           <vue-timeline-update
             :date="new Date('2018-06-01')"
             title="Passed CFA Exam Levels I & II"
-            description="Passed both exams on first attempt"
+            description="<li>Passed both exams on first attempt</li>"
             icon="edit"
-            color="purple"
+            color="blue"
             :thumbnail="resolve_img_url('cfa.png')"
           />
           <vue-timeline-update
             :date="new Date('2017-11-01')"
             title="Canadian Securities Course (CSC)"
-            description="Honours, Final Mark of 90%"
+            description="<li>Honours, Final Mark of 90%</li>"
             icon="edit"
-            color="red"
+            color="blue"
             :thumbnail="resolve_img_url('csi.png')"
           />
           <vue-timeline-update
             :date="new Date('2017-07-01')"
             title="Visiting Student"
-            description="Numerical Methods / Simulation and the Monte Carlo Methods / Biology"
+            description="<li>Numerical Methods / Simulation and the Monte Carlo Methods / Biology</li>"
             icon="done"
-            color="turquoise"
+            color="blue"
             :thumbnail="resolve_img_url('york.png')"
           />
           <vue-timeline-update
             :date="new Date('2015-08-01')"
             title="B.Sc. with Honours (Finance)"
-            description="First Class Honours (1:1) - Cumulative GPA of 3.7/4.0"
+            description="<li>First Class Honours (1:1) - Cumulative GPA of 3.7/4.0</li>"
             icon="done"
-            color="white"
+            color="blue"
             :thumbnail="resolve_img_url('cass.png')"
           />
           <vue-timeline-update
@@ -52,12 +52,12 @@
           <vue-timeline-update
             :date="new Date('2011-09-01')"
             title="A-Levels"
-            description="Mathematics, Further Mathematics, Physics"
+            description="<li>Mathematics, Further Mathematics, Physics</li>"
             icon="done"
-            color="orange"
+            color="blue"
             is-last
             :thumbnail="resolve_img_url('brighton.png')"
-            islast
+            isLast
           />
         </div>
       </vs-col>
@@ -76,19 +76,4 @@ export default {
 };
 </script>
 
-<style>
-/* Set font-family of timeline (according to the docs): */
-[class^="gb-"]:not(.gb-base-icon) {
-  font-family: "Amiri", sans-serif, Arial, Helvetica !important;
-}
-
-.timeline-top {
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-/* Shrink the thumbnail size: */
-.gb-vue-timeline-update__thumbnail {
-  max-width: 15rem !important;
-}
-</style>
+<style></style>

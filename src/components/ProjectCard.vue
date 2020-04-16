@@ -3,9 +3,7 @@
     <vs-card actionable>
       <div slot="header">
         <h2>
-          <i>
-            {{ card.title }}
-          </i>
+          {{ card.title }}
         </h2>
       </div>
       <div slot="media">
@@ -56,15 +54,20 @@ export default {
 }
 
 .con-vs-card {
-  background: #777676;
+  background: #4a4a52;
   color: white;
   margin-bottom: 30%;
   /* margin-top: 20%; */
-  box-shadow: 1px 1px #389cff;
+  box-shadow: 2px 1px whitesmoke;
   /* padding-bottom: 3em; */
+  max-width: 20rem;
 }
 
 .vs-card--content {
   min-height: 15em;
+}
+
+h2 {
+  color: #dec79b;
 }
 </style>

@@ -1,49 +1,36 @@
 <template>
-  <div class="page">
+  <div class="page intro-container">
     <vs-row>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <h1>
-          <vue-typer
-            :text="['Armin Varshokar']"
-            :repeat="Infinity"
-            :shuffle="false"
-            initial-action="typing"
-            :pre-type-delay="1200"
-            :type-delay="90"
-            :pre-erase-delay="2000"
-            :erase-delay="250"
-            erase-style="clear"
-            :erase-on-complete="false"
-            caret-animation="smooth"
-          >
-          </vue-typer>
-        </h1>
-      </vs-col>
+      <vs-avatar
+        class="avatar"
+        size="170px"
+        src="https://avatars0.githubusercontent.com/u/13618953?s=460&u=b83a795f9244a0eb253c2bd20e3d8063640498fb&v=4"
+      />
     </vs-row>
-    <br />
+    <vs-row><hr class="divider gold"/></vs-row>
     <vs-row>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <vs-avatar
-          class="avatar"
-          size="150px"
-          src="https://avatars0.githubusercontent.com/u/13618953?s=460&u=b83a795f9244a0eb253c2bd20e3d8063640498fb&v=4"
-        />
-      </vs-col>
+      <h1 class="intro-title">
+        Hi, I'm <span class="gold">Armin</span>. I love desgning and building
+        <span class="gold">software</span>.
+      </h1>
+      <!-- <h3 class="intro-subtitle gold">
+        "People think that computer science is the art of geniuses but the
+        actual reality is the opposite, just
+        <span class="intro-title"><i>many people</i></span> doing things that
+        <span class="intro-title"><i>build</i></span> on each other, like a wall
+        of mini stones."
+        <span class="intro-title">- Donald Knuth</span>
+      </h3> -->
+      <h3 class="intro-subtitle gold">
+        <span class="intro-title">"</span>There are
+        <span class="intro-title">two</span> ways of constructing a software
+        design: One way is to make it
+        <span class="intro-title"><i>so simple</i></span> that there are
+        obviously no deficiencies, and the other way is to make it
+        <span class="intro-title"><i>so complicated</i></span> that there are no
+        obvious deficiencies<span class="intro-title">" - .C.A.R. Hoare</span>
+      </h3>
     </vs-row>
-    <vs-row>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <p class="intro">
-          Welcome to my website. <br />
-          I am a product manager and front-end developer at Finneo, a commercial
-          real estate financing startup. <br />My background is in finance, but
-          I have been learning programming on my own for the past 3 years.
-          <br />It has been an extremely exctiting journey so far and I have
-          enjoyed every single day of it.
-        </p>
-      </vs-col>
-    </vs-row>
-    <br />
-    <br />
   </div>
 </template>
 
@@ -54,30 +41,46 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.intro {
-  /* animation-duration: 5s;
-  animation-delay: 0.5s; */
-  font-size: 1.5em;
-  margin-top: 2.5em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  line-height: 3em;
-  padding-bottom: 0em;
-  color: white;
-  text-align: center;
+.intro-container {
+  margin-left: 7rem;
+  margin-right: 3rem;
+  margin-top: 7rem;
+  margin-bottom: 6rem;
+  max-width: 80%;
+  font-size: 20px;
+}
+
+.intro-title {
+  color: whitesmoke;
+  max-width: 85rem;
+  text-align: left;
   text-justify: inter-word;
+}
+
+.intro-subtitle {
+  margin-left: 6rem;
+  align-content: left;
+  text-align: left;
+  text-justify: inter-word;
+  max-width: 65rem;
+  font-weight: 100;
+}
+.gold {
+  color: #dec79b;
+}
+
+.avatar {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.divider {
+  border-top: 1px solid;
+  width: 11rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 </style>
 <style lang="scss">
-.vue-typer {
-  margin-bottom: 1rem;
-  font-size: 1.5em;
-}
-
-.vue-typer .custom.char {
-  color: rgb(183, 211, 238);
-}
-
 .vue-typer .custom.caret {
   width: 5px;
   background-color: whitesmoke;
