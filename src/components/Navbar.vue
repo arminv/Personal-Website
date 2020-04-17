@@ -5,7 +5,6 @@
       class="nabarx"
       active-text-color="#DEC79B"
       text-color="white"
-      color="#18181e"
     >
       <vs-navbar-item index="0">
         <router-link to="/"><vs-avatar icon="home" size="large"/></router-link>
@@ -22,9 +21,6 @@
       </vs-navbar-item>
       <vs-navbar-item index="4">
         <router-link to="/projects">Projects</router-link>
-      </vs-navbar-item>
-      <vs-navbar-item index="5">
-        <router-link to="/contact">Contact</router-link>
       </vs-navbar-item>
     </vs-navbar>
   </div>
@@ -43,6 +39,7 @@ export default {
   display: flex;
   justify-content: right;
   align-items: center;
+  color: #18181e !important;
 }
 .vs-navbar--item a {
   font-size: large;

@@ -42,73 +42,13 @@
 
 <script>
 import ProjectCard from "../components/ProjectCard";
+import projectData from "../assets/projectData";
 
 export default {
   data() {
     return {
       type: "shadow",
-      cards: [
-        {
-          title: "Project 1",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        },
-        {
-          title: "Project 2",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        },
-        {
-          title: "Project 3",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        },
-        {
-          title: "Project 4",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        },
-        {
-          title: "Project 5",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        },
-        {
-          title: "Project 6",
-          description: `
-            This is my project one's description.
-            This is my project one's description.
-            `,
-          src: "logo.gif",
-          tags: ["Vue", "Vuesax"],
-          github: "https://github.com/arminv"
-        }
-      ]
+      cards: projectData
     };
   },
   components: {
@@ -119,9 +59,19 @@ export default {
 
 <style scoped>
 .grid {
-  padding-left: 5rem;
+  /* padding-left: 5rem;
   padding-right: 5rem;
-  padding-top: 3rem;
+  padding-top: 3rem; */
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 3rem;
+}
+
+.vs-col {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  min-width: 10rem;
 }
 
 /* .vs-row {
@@ -131,9 +81,4 @@ export default {
   padding-bottom: 2em;
 }
 */
-.vs-col {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 1rem;
-}
 </style>

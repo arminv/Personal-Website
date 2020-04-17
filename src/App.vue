@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
+    <div class="nav-container">
+      <Navbar />
+    </div>
     <transition name="router-anim" enter-active-class="animated fadeIn">
       <router-view />
     </transition>
@@ -25,16 +27,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #18181e;
+  color: whitesmoke;
+  background: #18181e;
 }
 
 body {
   background: #18181e;
 }
 
-footer {
-  z-index: -1 !important;
-}
 .animated {
   animation-duration: 3s;
 }
@@ -46,7 +46,6 @@ footer {
   font-family: "Amiri", serif;
   font-weight: 500;
   font-size: 3.6rem;
-  text-shadow: 1px 1px 1px #ffffff50;
 }
 
 .page li {
@@ -54,7 +53,15 @@ footer {
 }
 
 /* -------------------- */
-.vs-navbar--btn-responsive .btn-responsive-line {
+.vs-navbar--header {
+  margin-top: 2rem;
+}
+
+.vs-navbar--btn-responsive {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.btn-responsive-line {
   background: whitesmoke !important;
 }
 /* -------------------- */
