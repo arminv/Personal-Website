@@ -52,9 +52,14 @@ body {
   color: whitesmoke;
 }
 
-/* -------------------- */
+/* -------MOBILE NAVBAR--------- */
 .vs-navbar--header {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 6rem;
+}
+
+.activeMenuResponsive {
+  margin-bottom: 6rem;
 }
 
 .vs-navbar--btn-responsive {
@@ -64,7 +69,7 @@ body {
 .btn-responsive-line {
   background: whitesmoke !important;
 }
-/* -------------------- */
+/* ---------TIMELINE-------- */
 /* Set font-family of timelines (according to the docs): */
 [class^="gb-"]:not(.gb-base-icon) {
   font-family: "Amiri", sans-serif, Arial, Helvetica !important;

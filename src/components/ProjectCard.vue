@@ -50,6 +50,15 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  color: #dec79b;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 .project-link:hover {
   cursor: context-menu;
 }
@@ -80,13 +89,4 @@ export default {
 /* .tags-container {
   margin-top: 2rem;
 } */
-
-h2 {
-  color: #dec79b;
-}
-
-h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
 </style>

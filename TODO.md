@@ -1,14 +1,14 @@
 **TODO**:
 
-- Add an About page
+- Add an About page - add row at the bottom of Projects page to include all the technologies I'm familiar with / have used
 - Add a dark mode to the store and use it on everypage
-- Add content for Projects (gif + description of technologies used)
+- Add content for Projects (description of technologies used)
 - Improve descriptions of Experience timeline
 - Add a modal for each project card (own component)
-- Add a row at the bottom of Projects page to include all the technologies I'm familiar with / have used
 - Upload resume on AWS and link it on Experience page.
-- Add a 'Have a great {dayOfTheWeek}!' on contact page
-- Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page
+- Add a 'Have a great {dayOfTheWeek}!' on about page!
+- Move the 'src' path parser into a mixin and inject into components that need it
+<!-- - Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page -->
 
 **Colors**:
 

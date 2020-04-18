@@ -4,7 +4,7 @@
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <h1>
           <vue-typer
-            :text="['Armin Varshokar']"
+            :text="['Armin']"
             :repeat="Infinity"
             :shuffle="false"
             initial-action="typing"
@@ -22,13 +22,13 @@
     </vs-row>
     <br />
     <vs-row>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+      <!-- <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <vs-avatar
           class="avatar"
           size="150px"
           src="https://avatars0.githubusercontent.com/u/13618953?s=460&u=b83a795f9244a0eb253c2bd20e3d8063640498fb&v=4"
         />
-      </vs-col>
+      </vs-col> -->
     </vs-row>
     <vs-row>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
@@ -42,8 +42,18 @@
         </p>
       </vs-col>
     </vs-row>
-    <br />
-    <br />
+    <div class="logo-container">
+      <vs-row>
+        <img src="https://img.icons8.com/color/96/000000/javascript.png" />
+        <img src="https://img.icons8.com/color/96/000000/vue-js.png" />
+        <img src="https://img.icons8.com/plasticine/100/000000/react.png" />
+      </vs-row>
+      <vs-row>
+        <p>JavaScript</p>
+        <p>Vue</p>
+        <p>React</p>
+      </vs-row>
+    </div>
   </div>
 </template>
 
@@ -64,22 +74,5 @@ export default {
   color: whitesmoke;
   text-align: center;
   text-justify: inter-word;
-}
-</style>
-<style lang="scss">
-.vue-typer {
-  margin-bottom: 1rem;
-  font-size: 1.5em;
-  padding-right: 5rem;
-  padding-left: 5rem;
-}
-
-.vue-typer .custom.char {
-  color: #dec79b;
-}
-
-.vue-typer .custom.caret {
-  width: 5px;
-  background-color: whitesmoke;
 }
 </style>

@@ -14,8 +14,39 @@
       <vs-row><hr class="divider gold"/></vs-row>
       <vs-row>
         <h1 class="intro-title">
-          Hi, I'm <span class="gold">Armin</span>. I love desgning and building
-          <span class="gold">software</span>.
+          Hi, I'm
+          <span class="gold"
+            ><vue-typer
+              :text="['Armin']"
+              :repeat="0"
+              :shuffle="false"
+              initial-action="typing"
+              :pre-type-delay="1400"
+              :type-delay="120"
+              :pre-erase-delay="2000"
+              :erase-delay="250"
+              erase-style="clear"
+              :erase-on-complete="false"
+              caret-animation="blink"
+            >
+            </vue-typer></span
+          >. I love desgning and building
+          <span class="gold"
+            ><vue-typer
+              :text="['software']"
+              :repeat="0"
+              :shuffle="false"
+              initial-action="typing"
+              :pre-type-delay="2000"
+              :type-delay="120"
+              :pre-erase-delay="2000"
+              :erase-delay="250"
+              erase-style="clear"
+              :erase-on-complete="false"
+              caret-animation="blink"
+            >
+            </vue-typer></span
+          >.
         </h1>
         <!-- <h3 class="intro-subtitle gold">
         "People think that computer science is the art of geniuses but the
@@ -57,7 +88,7 @@ export default {
 .intro-container {
   margin-left: 7rem;
   margin-right: 3rem;
-  margin-top: -2rem;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   max-width: 80%;
   font-size: 20px;
@@ -65,7 +96,7 @@ export default {
 
 .intro-title {
   color: whitesmoke;
-  max-width: 85rem;
+  max-width: 95rem;
   text-align: left;
   text-justify: inter-word;
 }
@@ -89,13 +120,12 @@ export default {
   /* justify-content: right; */
   max-width: 400px;
   margin-right: 0;
-  margin-bottom: -12rem;
-  margin-top: -4rem;
+  margin-bottom: -14rem;
+  margin-top: -8rem;
   z-index: -1;
 }
 
 .avatar:hover {
-  /* box-shadow: 2px 2px 5px 0px #dec79b; */
   cursor: auto;
 }
 
@@ -104,5 +134,15 @@ export default {
   width: 11rem;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+</style>
+<style lang="scss">
+.vue-typer .custom.char {
+  color: #dec79b;
+}
+
+.vue-typer .custom.caret {
+  width: 3px;
+  background-color: whitesmoke;
 }
 </style>
