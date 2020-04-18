@@ -43,7 +43,6 @@ export default {
 }
 .vs-navbar--item a {
   font-size: large;
-  /* color: #71a5c8; */
 }
 
 .con-vs-avatar {

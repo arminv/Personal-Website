@@ -2,13 +2,14 @@
 
 - Add content on About page - loop through icons instead of hardcoding them
 - Add a dark mode to the store and use it on everypage
-- Add content for Projects (description of technologies used)
+- Add content + modal for each project card (own component) - or simply link to live websites (netlify deployed)
 - Improve descriptions of Experience timeline
-- Add a modal for each project card (own component)
 - Upload resume on AWS and link it on Experience page.
 - Add a 'Have a great {dayOfTheWeek}!' on about page!
-- Move the 'src' path parser into a mixin and inject into components that need it
-  <!-- - Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page -->
+- ~~Move the 'src' path parser into a mixin and inject into components that need it~~ - could do the same with projectData (or just leave it as is in a .js file)
+- Use CSS variables and clean up the syles
+- Remove redundant dependancies (sylus, etc.)
+- ~~Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page~~
 
 **Colors**:
 
