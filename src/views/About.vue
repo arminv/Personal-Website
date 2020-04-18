@@ -4,7 +4,7 @@
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <h1>
           <vue-typer
-            :text="['Armin']"
+            :text="['Armin Varshokar']"
             :repeat="Infinity"
             :shuffle="false"
             initial-action="typing"
@@ -22,15 +22,6 @@
     </vs-row>
     <br />
     <vs-row>
-      <!-- <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <vs-avatar
-          class="avatar"
-          size="150px"
-          src="https://avatars0.githubusercontent.com/u/13618953?s=460&u=b83a795f9244a0eb253c2bd20e3d8063640498fb&v=4"
-        />
-      </vs-col> -->
-    </vs-row>
-    <vs-row>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <p class="intro">
           Welcome to my website. <br />
@@ -42,31 +33,92 @@
         </p>
       </vs-col>
     </vs-row>
-    <div class="logo-container">
-      <vs-row>
-        <img src="https://img.icons8.com/color/96/000000/javascript.png" />
-        <img src="https://img.icons8.com/color/96/000000/vue-js.png" />
-        <img src="https://img.icons8.com/plasticine/100/000000/react.png" />
-      </vs-row>
-      <vs-row>
-        <p>JavaScript</p>
-        <p>Vue</p>
-        <p>React</p>
-      </vs-row>
-    </div>
+    <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+      <div class="logo-container">
+        <vs-row>
+          <Logo
+            src="https://img.icons8.com/color/96/000000/html-5.png"
+            name="HTML"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/css3.png"
+            name="CSS"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/javascript.png"
+            name="JavaScript"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/vue-js.png"
+            name="Vue"
+          />
+          <Logo
+            src="https://img.icons8.com/plasticine/100/000000/react.png"
+            name="React"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/redux.png"
+            name="Redux"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/firebase.png"
+            name="Firebase"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/python.png"
+            name="Python"
+          />
+          <Logo
+            src="https://img.icons8.com/ios-filled/100/000000/circled-r.png"
+            name="R"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/git.png"
+            name="Git"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/bitbucket.png"
+            name="Bitbucket"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/jira.png"
+            name="JIRA"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/npm.png"
+            name="npm"
+          />
+        </vs-row>
+        <vs-row>
+          <vs-col
+            vs-type="flex"
+            vs-justify="center"
+            vs-align="center"
+            vs-w="12"
+          >
+            <span class="icon-credit"
+              >icons by
+              <a href="https://icons8.com/icon/24895/npm">Icons8</a></span
+            >
+          </vs-col>
+        </vs-row>
+      </div>
+    </vs-col>
   </div>
 </template>
 
 <script>
+import Logo from "../components/Logo";
 export default {
-  name: "Home"
+  name: "Home",
+  components: { Logo }
 };
 </script>
 
 <style lang="css" scoped>
 .intro {
   font-size: 1.5em;
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
   margin-left: 1.5em;
   margin-right: 1.5em;
   line-height: 3em;
@@ -74,5 +126,18 @@ export default {
   color: whitesmoke;
   text-align: center;
   text-justify: inter-word;
+}
+
+.logo-container {
+  justify-content: center;
+  align-content: center;
+  margin-top: 7.5em;
+  margin-left: 3.5em;
+  margin-right: 3.5em;
+  margin-bottom: 2rem;
+}
+
+.icon-credit {
+  margin-top: 3rem;
 }
 </style>
