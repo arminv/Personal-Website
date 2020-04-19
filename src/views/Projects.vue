@@ -59,12 +59,14 @@ export default {
 
 <style scoped>
 .grid {
-  margin: -2rem 4rem 5rem 4rem;
+  /* margin: -2rem 4rem 5rem 4rem; */
+  margin: 3vh 5vw 5vh 5vw;
 }
 
 .vs-col {
-  padding: 0rem 3rem 1rem 3rem;
-  margin-top: 4rem;
-  min-width: 10rem;
+  /* padding: 0rem 3rem 1rem 3rem; */
+  margin: 5vh 1vw 5vh 1vw;
+  /* margin-top: 4rem; */
+  /* min-width: 10rem; */
 }
 </style>

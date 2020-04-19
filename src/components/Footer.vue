@@ -33,10 +33,9 @@ export default {
 
 <style scoped>
 .v-footer {
-  max-width: 2rem;
-  max-height: 12rem;
-  margin-bottom: 0.5rem;
-  margin-right: 1rem;
+  width: 0vw;
+  max-height: 20vh;
+  margin-bottom: 1vh;
 }
 
 .v-card__subtitle {

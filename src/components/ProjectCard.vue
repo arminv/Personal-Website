@@ -68,10 +68,8 @@ h3 {
 .con-vs-card {
   background: #4a4a52;
   color: white;
-  margin-bottom: 10%;
   box-shadow: 2px 1px #dec79b;
-  min-width: 6rem;
-  min-height: 6rem;
+  width: 35vw;
 }
 
 .con-vs-card:hover {
