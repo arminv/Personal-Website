@@ -40,12 +40,12 @@ body {
 }
 
 .page h1 {
-  /* color: #dec79b; */
-  color: whitesmoke;
-  margin-bottom: 2rem;
+  color: #dec79b;
+  /* color: whitesmoke; */
+  margin-bottom: 1.5vh;
   font-family: "Amiri", serif;
   font-weight: 500;
-  font-size: 3.6rem;
+  font-size: 4vh;
 }
 
 .page li {
@@ -53,11 +53,6 @@ body {
 }
 
 /* -------MOBILE NAVBAR--------- */
-.vs-navbar--header {
-  /* margin-top: 2rem; */
-  margin-bottom: 6rem;
-}
-
 .activeMenuResponsive {
   margin-bottom: 6rem;
 }
@@ -73,6 +68,7 @@ body {
 /* Set font-family of timelines (according to the docs): */
 [class^="gb-"]:not(.gb-base-icon) {
   font-family: "Amiri", sans-serif, Arial, Helvetica !important;
+  max-width: 70vw;
 }
 
 .timeline-top {
@@ -82,8 +78,8 @@ body {
 
 /* Shrink the thumbnail size: */
 .gb-vue-timeline-update__thumbnail {
-  max-width: 17rem !important;
-  max-height: 9rem !important;
+  max-width: 50vw !important;
+  max-height: 10vh !important;
   display: flex;
   justify-content: center;
   align-content: center;

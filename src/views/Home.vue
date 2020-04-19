@@ -82,37 +82,39 @@ export default {
 
 <style lang="css" scoped>
 .intro-container {
-  margin: 2rem 3rem 3rem 7rem;
-  max-width: 80%;
+  margin: -1vh 3vh 3vh 8vmax;
+  max-width: 90vw;
   font-size: 20px;
 }
 
 .intro-title {
+  max-width: 90vw;
   color: whitesmoke;
-  max-width: 95rem;
   text-align: left;
   text-justify: inter-word;
 }
 
 .intro-subtitle {
-  margin-left: 5rem;
+  font-size: 2.5vh;
+  margin: 1.5vh 0vh 2vh 6vh;
+  max-width: 70vw;
+  font-weight: 100;
   align-content: left;
   text-align: left;
   text-justify: inter-word;
-  max-width: 55rem;
-  font-weight: 100;
 }
+
 .gold {
   color: #dec79b;
 }
 
 .gold-bars {
+  max-width: 400px;
+  margin: -6rem 0rem -14rem 0rem;
+  z-index: -1;
   display: flex;
   flex-direction: row;
   float: right;
-  max-width: 400px;
-  margin: -8rem 0rem -14rem 0rem;
-  z-index: -1;
 }
 
 .avatar:hover {

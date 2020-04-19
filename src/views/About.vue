@@ -71,16 +71,16 @@
             name="Git"
           />
           <Logo
+            src="https://img.icons8.com/color/96/000000/npm.png"
+            name="npm"
+          />
+          <Logo
             src="https://img.icons8.com/color/96/000000/bitbucket.png"
             name="Bitbucket"
           />
           <Logo
-            src="https://img.icons8.com/color/96/000000/jira.png"
+            src="https://img.icons8.com/color/86/000000/jira.png"
             name="JIRA"
-          />
-          <Logo
-            src="https://img.icons8.com/color/96/000000/npm.png"
-            name="npm"
           />
         </vs-row>
         <vs-row>
@@ -125,8 +125,12 @@ export default {
 </script>
 
 <style lang="css" scoped>
+h2 {
+  font-size: 3vh;
+  color: #dec79b;
+}
 .intro {
-  font-size: 1.7em;
+  font-size: 2.5vh;
   line-height: 1.5em;
   margin: 2.5rem 3.5rem 0rem 3.5rem;
   padding-bottom: 2em;
