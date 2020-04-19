@@ -9,7 +9,7 @@
         vs-w="12"
       >
         <vs-col
-          v-for="i in cards.length"
+          v-for="i in 3"
           :key="i"
           vs-type="flex"
           vs-justify="center"
@@ -17,6 +17,23 @@
           vs-w="4"
         >
           <ProjectCard :card="cards[i - 1]" />
+        </vs-col>
+      </vs-row>
+      <vs-row
+        vs-align="center"
+        vs-type="flex"
+        vs-justify="space-around"
+        vs-w="12"
+      >
+        <vs-col
+          v-for="i in 3"
+          :key="i"
+          vs-type="flex"
+          vs-justify="center"
+          vs-align="center"
+          vs-w="4"
+        >
+          <ProjectCard :card="cards[i + 2]" />
         </vs-col>
       </vs-row>
     </div>
