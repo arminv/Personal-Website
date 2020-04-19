@@ -7,7 +7,6 @@
       <vs-row>
         <vs-avatar
           class="avatar"
-          size="170px"
           src="https://avatars0.githubusercontent.com/u/13618953?s=460&u=b83a795f9244a0eb253c2bd20e3d8063640498fb&v=4"
         />
       </vs-row>
@@ -109,12 +108,17 @@ export default {
 }
 
 .gold-bars {
-  max-width: 400px;
+  max-width: 40vh;
   margin: -6rem 0rem -14rem 0rem;
   z-index: -1;
   display: flex;
   flex-direction: row;
   float: right;
+}
+
+.avatar {
+  width: 18vh;
+  height: 18vh;
 }
 
 .avatar:hover {
@@ -123,7 +127,7 @@ export default {
 
 .divider {
   border-top: 1px solid;
-  width: 11rem;
+  width: 20vh;
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
