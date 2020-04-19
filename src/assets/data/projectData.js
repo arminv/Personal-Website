@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Note App",
+    title: "Note Keeping App",
     description: `
             Note taking app with a rich text editor
             `,
@@ -27,10 +27,11 @@ export default [
         "https://camo.githubusercontent.com/ad809f99b2a48a5b82f213431039752adf8e1fa7/68747470733a2f2f767565666972652e7675656a732e6f72672f767565666972652d6c6f676f2e737667"
       ]
     ],
-    github: "https://github.com/arminv/note-keeper-app"
+    github: "https://github.com/arminv/note-keeper-app",
+    link: "https://note-keeper-final.firebaseapp.com/register"
   },
   {
-    title: "Personal Website",
+    title: "My Personal Website",
     description: `
             This website!
             `,
@@ -52,7 +53,8 @@ export default [
         "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
-    github: "https://github.com/arminv/My-Personal-Website"
+    github: "https://github.com/arminv/My-Personal-Website",
+    link: "arminvarshokar.com"
   },
   {
     title: "Memory Game",
@@ -75,9 +77,15 @@ export default [
         "whitesmoke",
         "JavaScript",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+      ],
+      [
+        "whitesmoke",
+        "Netlify",
+        "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
-    github: "https://github.com/arminv/Card-Flipping-Game"
+    github: "https://github.com/arminv/Card-Flipping-Game",
+    link: "https://card-flipping-memory-game.netlify.app"
   },
   {
     title: "Frog Jump Game",
@@ -100,9 +108,15 @@ export default [
         "whitesmoke",
         "JavaScript",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+      ],
+      [
+        "whitesmoke",
+        "Netlify",
+        "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
-    github: "https://github.com/arminv/Frog-Jump-Game"
+    github: "https://github.com/arminv/Frog-Jump-Game",
+    link: "https://frog-jump-game-av.netlify.app"
   },
   {
     title: "Drumkit",
@@ -125,9 +139,15 @@ export default [
         "whitesmoke",
         "JavaScript",
         "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+      ],
+      [
+        "whitesmoke",
+        "Netlify",
+        "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
-    github: "https://github.com/arminv/Drumkit"
+    github: "https://github.com/arminv/Drumkit",
+    link: "https://beatmaker-game-app.netlify.app"
   },
   {
     title: "Monte Carlo Simulation",
@@ -139,7 +159,7 @@ export default [
       ["whitesmoke", "R", "https://www.r-project.org/logo/Rlogo.png"],
       [
         "whitesmoke",
-        "Jupyter Notebooks",
+        "Jupyter",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/518px-Jupyter_logo.svg.png"
       ]
     ],

@@ -69,7 +69,7 @@ body {
 .btn-responsive-line {
   background: whitesmoke !important;
 }
-/* ---------TIMELINE-------- */
+/* ---------TIMELINES-------- */
 /* Set font-family of timelines (according to the docs): */
 [class^="gb-"]:not(.gb-base-icon) {
   font-family: "Amiri", sans-serif, Arial, Helvetica !important;
@@ -82,8 +82,8 @@ body {
 
 /* Shrink the thumbnail size: */
 .gb-vue-timeline-update__thumbnail {
-  max-width: 15rem !important;
-  max-height: 6rem !important;
+  max-width: 17rem !important;
+  max-height: 9rem !important;
   display: flex;
   justify-content: center;
   align-content: center;

@@ -42,7 +42,7 @@
 
 <script>
 import ProjectCard from "../components/ProjectCard";
-import projectData from "../assets/projectData";
+import projectData from "../assets/data/projectData";
 
 export default {
   data() {
@@ -59,26 +59,12 @@ export default {
 
 <style scoped>
 .grid {
-  /* padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 3rem; */
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-top: 3rem;
+  margin: -2rem 4rem 5rem 4rem;
 }
 
 .vs-col {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 1rem;
+  padding: 0rem 3rem 1rem 3rem;
+  margin-top: 4rem;
   min-width: 10rem;
 }
-
-/* .vs-row {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
-*/
 </style>

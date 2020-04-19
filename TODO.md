@@ -1,17 +1,23 @@
 **TODO**:
 
-- Add content on About page - loop through icons instead of hardcoding them
+Content:
+
+- Projects : Improve content of each project and describe the dev process for each
+- resume : Upload on AWS and link it on Experience/About page.
+- Experience : Improve descriptions
+
+Design :
+
 - Add a dark mode to the store and use it on everypage
-- Add content + modal for each project card (own component) - or simply link to live websites (netlify deployed)
-- Improve descriptions of Experience timeline
-- Upload resume on AWS and link it on Experience page.
-- Add a 'Have a great {dayOfTheWeek}!' on about page!
-- ~~Move the 'src' path parser into a mixin and inject into components that need it~~ - could do the same with projectData (or just leave it as is in a .js file)
+
+Code :
+
+- About page : loop through icons instead of hardcoding them
 - Use CSS variables and clean up the syles
 - Remove redundant dependancies (sylus, etc.)
 - ~~Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page~~
 
-**Colors**:
+Potential Colors :
 
 - rgb(139, 165, 189)
 - `#389cff`
@@ -21,42 +27,3 @@
   rgba(193, 195, 224, 0.42),
   rgba(216, 216, 194, 0.42)
   );
-
- <!-- <vue-typer
-          :text="[
-            'Welcome to my website.\n\nI am a product manager and front-end developer at Finneo, a commercial real estate financing startup.\nMy background is in finance, but I have been learning programming on my own for the past 3 years.\nIt has been an extremely exctiting journey so far and I have enjoyed every single day of it.'
-          ]"
-          :repeat="0"
-          :shuffle="false"
-          initial-action="typing"
-          :pre-type-delay="1200"
-          :type-delay="10"
-          :pre-erase-delay="2000"
-          :erase-delay="250"
-          erase-style="clear"
-          :erase-on-complete="false"
-          caret-animation="smooth"
-        ></vue-typer> -->
-
-<!--
-.vue-typer {
-  font-size: 1.7em;
-  margin-top: 2.5em;
-  font-family: "Barlow Condensed", sans-serif;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  line-height: 2.4em;
-  padding-bottom: 3.5rem;
-}
-.vue-typer .custom.char
-{
-  color: white;
-  text-align: justify;
-  text-justify: inter-word;
-}
-.vue-typer .custom.caret
-{
-  width: 5px;
-  background-color: whitesmoke;
-}
--->

@@ -8,7 +8,6 @@
             <v-icon size="30px">{{ icon.image }}</v-icon>
           </a>
         </v-btn>
-        <!-- <strong class="subheading"> @{{ new Date().getFullYear() }} </strong> -->
       </v-card-subtitle>
     </v-card>
   </v-footer>
@@ -28,7 +27,6 @@ export default {
         link: "mailto: arminvarshokar@gmail.com"
       }
     ]
-    // dark: true
   })
 };
 </script>
@@ -49,9 +47,4 @@ export default {
 a {
   color: inherit;
 }
-
-/* .dark-mode {
-  display: flex;
-  justify-content: center;
-} */
 </style>

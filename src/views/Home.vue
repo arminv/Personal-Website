@@ -82,10 +82,7 @@ export default {
 
 <style lang="css" scoped>
 .intro-container {
-  margin-left: 7rem;
-  margin-right: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem 3rem 3rem 7rem;
   max-width: 80%;
   font-size: 20px;
 }
@@ -113,11 +110,8 @@ export default {
   display: flex;
   flex-direction: row;
   float: right;
-  /* justify-content: right; */
   max-width: 400px;
-  margin-right: 0;
-  margin-bottom: -14rem;
-  margin-top: -8rem;
+  margin: -8rem 0rem -14rem 0rem;
   z-index: -1;
 }
 

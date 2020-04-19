@@ -1,38 +1,32 @@
 <template>
   <div class="page">
-    <vs-row>
-      <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <h1>
-          <vue-typer
-            :text="['Armin Varshokar']"
-            :repeat="Infinity"
-            :shuffle="false"
-            initial-action="typing"
-            :pre-type-delay="1200"
-            :type-delay="90"
-            :pre-erase-delay="2000"
-            :erase-delay="250"
-            erase-style="clear"
-            :erase-on-complete="false"
-            caret-animation="smooth"
-          >
-          </vue-typer>
-        </h1>
-      </vs-col>
-    </vs-row>
-    <br />
+    <h1>About Me</h1>
     <vs-row>
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <p class="intro">
-          Welcome to my website. <br />
-          I am a product manager and front-end developer at Finneo, a commercial
-          real estate financing startup. <br />My background is in finance, but
-          I have been learning programming on my own for the past 3 years.
-          <br />It has been an extremely exctiting journey so far and I have
-          enjoyed every single day of it.
+          <span>
+            I am a product manager and front-end developer at Finneo, a
+            commercial real estate financing startup.<br /><br />I graduated
+            with a degree in finance, pursued professional degrees following
+            that and started working in the industry as an analyst.<br /><br />
+            About 3 years ago I became interested in programming while I was
+            looking for a new hobby and decided to learn more on my own. I never
+            stopped learning since then. <br /><br />What started as a hobby
+            then has now turned into my passion and plays a big role in my
+            everyday life. It has been an extremely exctiting journey so far and
+            I have been enjoying every single day of it.<br />
+          </span>
+          <br />
+          <span class="signature">
+            Have a great {{ getDayOfWeek() }}
+            <i>- Armin Varshokar</i>
+          </span>
         </p>
       </vs-col>
     </vs-row>
+    <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+      <h2>Tools I Use</h2>
+    </vs-col>
     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
       <div class="logo-container">
         <vs-row>
@@ -111,30 +105,49 @@
 import Logo from "../components/Logo";
 export default {
   name: "Home",
-  components: { Logo }
+  components: { Logo },
+  methods: {
+    getDayOfWeek() {
+      let today = new Date();
+      let weekday = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ];
+      return weekday[today.getDay()];
+    }
+  }
 };
 </script>
 
 <style lang="css" scoped>
 .intro {
-  font-size: 1.5em;
-  /* margin-top: 2.5em; */
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-  line-height: 3em;
-  padding-bottom: 0em;
+  font-size: 1.7em;
+  line-height: 1.5em;
+  margin: 2.5rem 3.5rem 0rem 3.5rem;
+  padding-bottom: 2em;
+  max-width: 65%;
   color: whitesmoke;
-  text-align: center;
+  text-align: left;
+  text-justify: inter-word;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
   text-justify: inter-word;
 }
 
 .logo-container {
   justify-content: center;
   align-content: center;
-  margin-top: 7.5em;
-  margin-left: 3.5em;
-  margin-right: 3.5em;
-  margin-bottom: 2rem;
+  margin: 2.5rem 3.5rem 2rem 3.5rem;
 }
 
 .icon-credit {
