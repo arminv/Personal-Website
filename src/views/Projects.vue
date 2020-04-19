@@ -14,7 +14,7 @@
           vs-type="flex"
           vs-justify="center"
           vs-align="center"
-          vs-w="4"
+          vs-w="6"
         >
           <ProjectCard :card="cards[i - 1]" />
         </vs-col>
