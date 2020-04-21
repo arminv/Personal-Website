@@ -2,12 +2,7 @@
   <div class="page">
     <h1>Projects</h1>
     <div class="grid">
-      <vs-row
-        vs-align="center"
-        vs-type="flex"
-        vs-justify="space-around"
-        vs-w="12"
-      >
+      <vs-row vs-align="center" vs-type="flex" vs-justify="space-around">
         <vs-col
           v-for="i in cards.length"
           :key="i"
@@ -15,6 +10,9 @@
           vs-justify="center"
           vs-align="center"
           vs-w="6"
+          vs-lg="4"
+          vs-sm="6"
+          vs-xs="8"
         >
           <ProjectCard :card="cards[i - 1]" />
         </vs-col>
@@ -41,15 +39,7 @@ export default {
 </script>
 
 <style scoped>
-.grid {
-  /* margin: -2rem 4rem 5rem 4rem; */
-  margin: 3vh 5vw 5vh 5vw;
-}
-
 .vs-col {
-  /* padding: 0rem 3rem 1rem 3rem; */
   margin: 5vh 1vw 5vh 1vw;
-  /* margin-top: 4rem; */
-  /* min-width: 10rem; */
 }
 </style>

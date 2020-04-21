@@ -54,7 +54,7 @@ export default [
       ]
     ],
     github: "https://github.com/arminv/My-Personal-Website",
-    link: "arminvarshokar.com"
+    // link: "arminvarshokar.com"
   },
   {
     title: "Memory Game",
