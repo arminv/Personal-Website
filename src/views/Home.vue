@@ -114,16 +114,16 @@ export default {
   display: flex;
   flex-direction: row;
   float: right;
-  animation: goldbarsAnimation 7s forwards 0s ease;
+  animation: goldbarsAnimation 5s forwards 0s ease;
 }
 
 @keyframes goldbarsAnimation {
   0% {
-    transform: rotate(0);
+    transform: rotate(0) scale(7);
     opacity: 0;
   }
   65% {
-    transform: rotate(xx);
+    transform: rotate(0) scale(1);
     opacity: 1;
   }
 }
