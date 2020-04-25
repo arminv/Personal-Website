@@ -53,7 +53,7 @@ export default [
         "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
-    github: "https://github.com/arminv/My-Personal-Website",
+    github: "https://github.com/arminv/My-Personal-Website"
     // link: "arminvarshokar.com"
   },
   {

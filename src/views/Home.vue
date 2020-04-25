@@ -114,6 +114,18 @@ export default {
   display: flex;
   flex-direction: row;
   float: right;
+  animation: goldbarsAnimation 7s forwards 0s ease;
+}
+
+@keyframes goldbarsAnimation {
+  0% {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  65% {
+    transform: rotate(xx);
+    opacity: 1;
+  }
 }
 
 .avatar {

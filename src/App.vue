@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="nav-container">
-      <Navbar />
+      <Navbar class="navbar" />
     </div>
     <transition name="router-anim" enter-active-class="animated fadeIn">
       <router-view />
@@ -94,5 +94,21 @@ body {
   .gb-vue-timeline-update__center
   .gb-vue-timeline-update__bullet {
   box-shadow: 0 1px 5px 0 #ffffff7c !important;
+}
+
+/* CSS Animations: */
+@keyframes navbarAnimation {
+  0% {
+    transform: rotate(0);
+    opacity: 0;
+  }
+  65% {
+    transform: rotate(xx);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: navbarAnimation 7s forwards 0s ease;
 }
 </style>

@@ -8,7 +8,7 @@ Content:
 
 Design :
 
-- Add a dark mode to the store and use it on everypage
+- Add a dark mode via an eventbus and emit on click (put button in footer)
 
 Code :
 
