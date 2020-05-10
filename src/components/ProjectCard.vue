@@ -19,7 +19,7 @@
         </vs-chip>
       </div>
       <vs-row vs-justify="flex-end">
-        <a :href="card.link" target="_blank">
+        <a :href="card.link" target="_blank" alt="Live demo">
           <vs-chip color="#dec79b" class="project-link" v-if="card.link">
             <vs-avatar
               icon="open_in_browser"
@@ -29,7 +29,7 @@
             Live
           </vs-chip>
         </a>
-        <a :href="card.github" target="_blank">
+        <a :href="card.github" target="_blank" alt="GitHub code">
           <vs-chip color="#dec79b" class="project-link" v-if="card.github">
             <vs-avatar icon="code" color="#18181e" class="project-link" />
             Code
