@@ -13,7 +13,7 @@
           <a href="https://finneotech.com" target="_blank" alt="finneo">
             <vue-timeline-update
               :date="new Date('2019-08-01')"
-              title="Product Manager | Developer"
+              title="Associate Product Manager"
               description="<li>Overseeing feature development</li><li>Reporting (via JIRA) and fixing bugs (in React)</li><li>Coordinating with remote teams</li><li>Quality Assurance (QA)</li>"
               icon="code"
               color="red"

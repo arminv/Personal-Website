@@ -52,11 +52,6 @@ export default [
         "whitesmoke",
         "RapidAPI",
         "https://rapidapi.com/static-assets/default/logo.svg"
-      ],
-      [
-        "whitesmoke",
-        "Netlify",
-        "https://avatars0.githubusercontent.com/u/7892489?s=200&v=4"
       ]
     ],
     github: "https://github.com/arminv/COVID-19-React",
