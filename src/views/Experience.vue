@@ -63,4 +63,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.gb-base-icon {
+  color: var(--content-color) !important;
+}
+
+.gb-vue-timeline-update__ago {
+  color: var(--timeline-years) !important;
+}
+</style>

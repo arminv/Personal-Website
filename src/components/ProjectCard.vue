@@ -20,7 +20,7 @@
       </div>
       <vs-row vs-justify="flex-end">
         <a :href="card.link" target="_blank" alt="Live demo">
-          <vs-chip color="#dec79b" class="project-link" v-if="card.link">
+          <vs-chip :color="liveChipColor" class="project-link" v-if="card.link">
             <vs-avatar
               icon="open_in_browser"
               color="#18181e"
@@ -30,7 +30,11 @@
           </vs-chip>
         </a>
         <a :href="card.github" target="_blank" alt="GitHub code">
-          <vs-chip color="#dec79b" class="project-link" v-if="card.github">
+          <vs-chip
+            :color="liveChipColor"
+            class="project-link"
+            v-if="card.github"
+          >
             <vs-avatar icon="code" color="#18181e" class="project-link" />
             Code
           </vs-chip>
@@ -45,13 +49,23 @@ import { pathParserMixin } from "../utils/pathParserMixin";
 export default {
   data: () => ({}),
   props: ["card"],
-  mixins: [pathParserMixin]
+  mixins: [pathParserMixin],
+  computed: {
+    liveChipColor: {
+      get() {
+        const dark = this.$store.state.dark;
+        let liveChipColor;
+        dark ? (liveChipColor = "#b88f43") : (liveChipColor = "#dec79b");
+        return liveChipColor;
+      }
+    }
+  }
 };
 </script>
 
 <style scoped>
 h2 {
-  color: #dec79b;
+  color: var(--gold-color);
 }
 
 h3 {
@@ -64,9 +78,9 @@ h3 {
 }
 
 .con-vs-card {
-  background: #4a4a52;
+  background: var(--project-color) !important;
   color: white;
-  box-shadow: 2px 1px #dec79b;
+  box-shadow: 2px 1px var(--gold-color);
   /* width: 35vw; */
 }
 
@@ -81,7 +95,11 @@ h3 {
 .con-vs-chip {
   font-weight: 200 !important;
   font-size: 14px;
-  color: black !important;
+  color: var(--bg-color) !important;
   margin: 0;
+}
+
+.vs-avatar {
+  color: var(--gold-color) !important;
 }
 </style>

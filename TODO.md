@@ -8,22 +8,12 @@ Content:
 
 Design :
 
-- Add a dark mode via an eventbus and emit on click (put button in footer)
+- ~~Add dark/light mode via store & CSS variables (put button in footer)~~
 
 Code :
 
 - About page : loop through icons instead of hardcoding them
-- Use CSS variables and clean up the syles
-- Remove redundant dependancies (sylus, etc.)
+- ~~Remove redundant dependancies (sylus, etc.)~~
 - ~~Use this https://www.emailjs.com/docs/examples/vuejs/ for the email sending on Contact page~~
+- ~~Use CSS variables and clean up the syles~~
 
-Potential Colors :
-
-- rgb(139, 165, 189)
-- `#389cff`
-- background: linear-gradient(
-  90deg,
-  rgb(213, 235, 235),
-  rgba(193, 195, 224, 0.42),
-  rgba(216, 216, 194, 0.42)
-  );

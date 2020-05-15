@@ -127,7 +127,7 @@ export default {
 <style lang="css" scoped>
 h2 {
   font-size: 3vh;
-  color: #dec79b;
+  color: var(--gold-color);
 }
 .intro {
   font-size: 2.5vh;
@@ -135,7 +135,7 @@ h2 {
   margin: 2.5rem 3.5rem 0rem 3.5rem;
   padding-bottom: 2em;
   max-width: 65%;
-  color: whitesmoke;
+  color: var(--content-color);
   text-align: left;
   text-justify: inter-word;
 }

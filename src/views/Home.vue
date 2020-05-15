@@ -88,7 +88,7 @@ export default {
 
 .intro-title {
   max-width: 90vw;
-  color: whitesmoke;
+  color: var(--content-color);
   text-align: left;
   text-justify: inter-word;
 }
@@ -104,7 +104,7 @@ export default {
 }
 
 .gold {
-  color: #dec79b;
+  color: var(--gold-color);
 }
 
 .gold-bars {
@@ -146,11 +146,11 @@ export default {
 </style>
 <style lang="scss">
 .vue-typer .custom.char {
-  color: #dec79b;
+  color: var(--gold-color);
 }
 
 .vue-typer .custom.caret {
   width: 3px;
-  background-color: whitesmoke;
+  background-color: var(--content-color);
 }
 </style>

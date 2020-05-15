@@ -3,9 +3,10 @@
     <v-card flat tile>
       <v-card-subtitle>
         <v-spacer></v-spacer>
+        <vs-switch color="dark" v-model="bg" @click="toggleMode()" />
         <v-btn v-for="icon in icons" :key="icon.index" class="mx-4" icon>
           <a :href="icon.link" target="_blank">
-            <v-icon size="30px">{{ icon.image }}</v-icon>
+            <v-icon size="30px" color="red">{{ icon.image }}</v-icon>
           </a>
         </v-btn>
       </v-card-subtitle>
@@ -27,7 +28,29 @@ export default {
         link: "mailto: arminvarshokar@gmail.com"
       }
     ]
-  })
+  }),
+  methods: {
+    toggleMode() {
+      if (this.bg) {
+        document.documentElement.setAttribute("data-theme", "dark");
+        this.bg.set;
+      } else {
+        document.documentElement.setAttribute("data-theme", "light");
+        this.bg.set;
+      }
+    }
+  },
+  computed: {
+    bg: {
+      get() {
+        const bg = this.$store.state.dark;
+        return bg;
+      },
+      set() {
+        this.$store.commit("mode");
+      }
+    }
+  }
 };
 </script>
 
@@ -39,8 +62,12 @@ export default {
 }
 
 .v-card__subtitle {
-  background-color: #18181e;
+  background-color: var(--bg-color);
   padding: 10px 0px 10px 0px !important;
+}
+
+.v-btn--icon {
+  color: var(--content-color) !important;
 }
 
 a {

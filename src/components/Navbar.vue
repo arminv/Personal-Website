@@ -3,8 +3,8 @@
     <vs-navbar
       v-model="activeItem"
       class="nabarx"
-      active-text-color="#DEC79B"
-      text-color="white"
+      :active-text-color="activeTextColor"
+      :text-color="textColor"
     >
       <vs-navbar-item index="0">
         <router-link to="/"><vs-avatar icon="home" size="large"/></router-link>
@@ -29,7 +29,25 @@
 export default {
   data: () => ({
     activeItem: 0
-  })
+  }),
+  computed: {
+    textColor: {
+      get() {
+        const dark = this.$store.state.dark;
+        let textColor;
+        dark ? (textColor = "#000") : (textColor = "whitesmoke");
+        return textColor;
+      }
+    },
+    activeTextColor: {
+      get() {
+        const dark = this.$store.state.dark;
+        let activeTextColor;
+        dark ? (activeTextColor = "#af812c") : (activeTextColor = "#dec79b");
+        return activeTextColor;
+      }
+    }
+  }
 };
 </script>
 
@@ -39,13 +57,13 @@ export default {
   display: flex;
   justify-content: right;
   align-items: center;
-  color: #18181e !important;
+  color: var(--bg-color) !important;
 }
 .vs-navbar--item a {
   font-size: large;
 }
 
 .con-vs-avatar {
-  background-color: #dec79b78 !important;
+  background-color: var(--gold-color) !important;
 }
 </style>

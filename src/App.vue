@@ -21,18 +21,37 @@ export default {
 };
 </script>
 <style>
+/* Dark-Light Mode: */
+:root {
+  --bg-color: #18181e;
+  --gold-color: #dec79b;
+  --content-color: whitesmoke;
+  /* --project-color: #4a4a52; */
+  --project-color: #54545e;
+  --timeline-years: lightblue;
+}
+[data-theme="light"] {
+  --bg-color: whitesmoke;
+  /* --gold-color: #d6a242; */
+  --gold-color: #b88f43;
+  --content-color: #18181e;
+  /* --project-color: #2a2a30; */
+  --project-color: #18181ecc;
+  --timeline-years: darkblue;
+}
+
 #app {
   font-family: Amiri, Helvetica, Arial, sans-serif;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: whitesmoke;
-  background: #18181e;
+  color: var(--content-color);
+  background: var(--bg-color);
 }
 
 body {
-  background: #18181e;
+  background: var(--bg-color);
 }
 
 .animated {
@@ -40,8 +59,7 @@ body {
 }
 
 .page h1 {
-  color: #dec79b;
-  /* color: whitesmoke; */
+  color: var(--gold-color);
   margin-bottom: 1.5vh;
   font-family: "Amiri", serif;
   font-weight: 500;
@@ -49,7 +67,7 @@ body {
 }
 
 .page li {
-  color: whitesmoke;
+  color: var(--content-color);
 }
 
 /* -------MOBILE NAVBAR--------- */
@@ -58,11 +76,11 @@ body {
 }
 
 .vs-navbar--btn-responsive {
-  background-color: rgb(0, 0, 0) !important;
+  background-color: -var(--content-color) !important;
 }
 
 .btn-responsive-line {
-  background: whitesmoke !important;
+  background: var(--content-color) !important;
 }
 /* ---------TIMELINES-------- */
 /* Set font-family of timelines (according to the docs): */
@@ -87,7 +105,7 @@ body {
 }
 
 .gb-vue-timeline-update__title {
-  color: #dec79b;
+  color: var(--gold-color);
 }
 
 .gb-vue-timeline-update--dark
