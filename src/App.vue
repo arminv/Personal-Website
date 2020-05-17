@@ -41,8 +41,8 @@ export default {
 }
 
 #app {
-  font-family: Amiri, Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -61,13 +61,17 @@ body {
 .page h1 {
   color: var(--gold-color);
   margin-bottom: 1.5vh;
-  font-family: "Amiri", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-size: 4vh;
 }
 
 .page li {
   color: var(--content-color);
+}
+
+.text-chip {
+  font-weight: 400 !important;
 }
 
 /* -------MOBILE NAVBAR--------- */
@@ -85,7 +89,7 @@ body {
 /* ---------TIMELINES-------- */
 /* Set font-family of timelines (according to the docs): */
 [class^="gb-"]:not(.gb-base-icon) {
-  font-family: "Amiri", sans-serif, Arial, Helvetica !important;
+  font-family: "Roboto", sans-serif, Arial, Helvetica !important;
   max-width: 70vw;
 }
 
@@ -98,6 +102,7 @@ body {
 .gb-vue-timeline-update__thumbnail {
   max-width: 50vw !important;
   max-height: 10vh !important;
+  margin-right: 5px !important;
   display: flex;
   justify-content: center;
   align-content: center;

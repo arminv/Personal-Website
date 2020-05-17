@@ -81,7 +81,7 @@ export default {
 
 <style lang="css" scoped>
 .intro-container {
-  margin: -1vh 3vh 3vh 8vmax;
+  margin: 1vh 3vh 4vh 8vmax;
   max-width: 90vw;
   font-size: 20px;
 }
@@ -94,10 +94,11 @@ export default {
 }
 
 .intro-subtitle {
-  font-size: 2.5vh;
+  font-size: 2.8vh;
+  font-weight: 300;
+  line-height: 35px;
   margin: 1.5vh 0vh 2vh 6vh;
   max-width: 70vw;
-  font-weight: 100;
   align-content: left;
   text-align: left;
   text-justify: inter-word;
