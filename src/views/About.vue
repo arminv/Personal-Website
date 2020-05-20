@@ -92,7 +92,11 @@
           >
             <span class="icon-credit"
               >icons by
-              <a href="https://icons8.com/icon/24895/npm">Icons8</a></span
+              <a
+                href="https://icons8.com/icon/24895/npm"
+                rel="noopener noreferrer"
+                >Icons8</a
+              ></span
             >
           </vs-col>
         </vs-row>

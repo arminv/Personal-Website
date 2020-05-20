@@ -5,7 +5,8 @@
         <v-spacer></v-spacer>
         <vs-switch color="dark" v-model="bg" @click="toggleMode()" />
         <v-btn v-for="icon in icons" :key="icon.index" class="mx-4" icon>
-          <a :href="icon.link" target="_blank">
+          <!-- https://bolajiayodeji.com/the-security-vulnerabilities-of-the-target_blank-attribute-cka3hgvyw01axdjs13r1xgc7m -->
+          <a :href="icon.link" target="_blank" rel="noopener noreferrer">
             <v-icon size="30px" color="red">{{ icon.image }}</v-icon>
           </a>
         </v-btn>

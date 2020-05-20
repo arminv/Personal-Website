@@ -10,7 +10,12 @@
         vs-offset="3"
       >
         <div class="timeline">
-          <a href="https://finneotech.com" target="_blank" alt="finneo">
+          <a
+            href="https://finneotech.com"
+            target="_blank"
+            alt="finneo"
+            rel="noopener noreferrer"
+          >
             <vue-timeline-update
               :date="new Date('2019-08-01')"
               title="Associate Product Manager"
@@ -20,7 +25,12 @@
               :thumbnail="resolve_img_url('finneo.png')"
             />
           </a>
-          <a href="http://capstack.ca" target="_blank" alt="capstack">
+          <a
+            href="http://capstack.ca"
+            target="_blank"
+            alt="capstack"
+            rel="noopener noreferrer"
+          >
             <vue-timeline-update
               :date="new Date('2018-12-01')"
               title="Financial Analyst"
@@ -30,7 +40,12 @@
               :thumbnail="resolve_img_url('capstack.png')"
             />
           </a>
-          <a href="https://2019.pycon.ca" target="_blank" alt="pycon">
+          <a
+            href="https://2019.pycon.ca"
+            target="_blank"
+            alt="pycon"
+            rel="noopener noreferrer"
+          >
             <vue-timeline-update
               :date="new Date('2018-11-01')"
               title="Volunteer - PyCon Canada"
@@ -39,7 +54,12 @@
               :thumbnail="resolve_img_url('pycon.png')"
             />
           </a>
-          <a href="https://pandas.pydata.org" target="_blank" alt="pandas">
+          <a
+            href="https://pandas.pydata.org"
+            target="_blank"
+            alt="pandas"
+            rel="noopener noreferrer"
+          >
             <vue-timeline-update
               :date="new Date('2018-11-01')"
               title="Open-Source Contributor - Pandas"
