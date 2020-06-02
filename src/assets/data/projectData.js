@@ -1,10 +1,10 @@
 export default [
   {
-    title: "Note Taking App",
+    title: "Thema",
     description: `
-            Note taking app with a rich text editor
+            Create your own theme for VSCode (with Jacob Isaac)
             `,
-    src: "note.png",
+    src: "thema.png",
     tags: [
       [
         "var(--content-color)",
@@ -13,22 +13,17 @@ export default [
       ],
       [
         "var(--content-color)",
-        "Vuetify",
-        "https://camo.githubusercontent.com/41759602ad091b02adf7b4986b55b0a870471b98/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667"
+        "Vuesax",
+        "https://raw.githubusercontent.com/lusaxweb/vuesax/master/public/vuesax-logo-beta.png"
       ],
       [
         "var(--content-color)",
         "Firebase",
         "https://avatars2.githubusercontent.com/u/1335026?s=200&v=4"
-      ],
-      [
-        "var(--content-color)",
-        "Vuefire",
-        "https://camo.githubusercontent.com/ad809f99b2a48a5b82f213431039752adf8e1fa7/68747470733a2f2f767565666972652e7675656a732e6f72672f767565666972652d6c6f676f2e737667"
       ]
     ],
-    github: "https://github.com/arminv/note-keeper-app",
-    link: "https://note-keeper-final.firebaseapp.com/register"
+    // github: "https://github.com/arminv/note-keeper-app",
+    link: "https://thema.design"
   },
   {
     title: "COVID-19 Tracker",
@@ -62,6 +57,37 @@ export default [
     link: "https://covid-19-dashboard-react.netlify.app/"
   },
   {
+    title: "Note Taking App",
+    description: `
+            Note taking app with a rich text editor
+            `,
+    src: "note.png",
+    tags: [
+      [
+        "var(--content-color)",
+        "Vue",
+        "https://camo.githubusercontent.com/728ce9f78c3139e76fa69925ad7cc502e32795d2/68747470733a2f2f7675656a732e6f72672f696d616765732f6c6f676f2e706e67"
+      ],
+      [
+        "var(--content-color)",
+        "Vuetify",
+        "https://camo.githubusercontent.com/41759602ad091b02adf7b4986b55b0a870471b98/68747470733a2f2f63646e2e767565746966796a732e636f6d2f696d616765732f6c6f676f732f6c6f676f2e737667"
+      ],
+      [
+        "var(--content-color)",
+        "Firebase",
+        "https://avatars2.githubusercontent.com/u/1335026?s=200&v=4"
+      ],
+      [
+        "var(--content-color)",
+        "Vuefire",
+        "https://camo.githubusercontent.com/ad809f99b2a48a5b82f213431039752adf8e1fa7/68747470733a2f2f767565666972652e7675656a732e6f72672f767565666972652d6c6f676f2e737667"
+      ]
+    ],
+    github: "https://github.com/arminv/note-keeper-app",
+    link: "https://note-keeper-final.firebaseapp.com/register"
+  },
+  {
     title: "Personal Website",
     description: `
             This website
@@ -90,7 +116,7 @@ export default [
   {
     title: "Memory Game",
     description: `
-            Card memory game in JavaScript
+            Memory game in JavaScript
             `,
     src: "card.png",
     tags: [
