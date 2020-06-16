@@ -94,7 +94,7 @@ export default {
 }
 
 .intro-subtitle {
-  font-size: 2.8vh;
+  font-size: 24px;
   font-weight: 300;
   line-height: 35px;
   margin: 1.5vh 0vh 2vh 6vh;

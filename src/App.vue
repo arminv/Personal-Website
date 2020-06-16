@@ -63,7 +63,7 @@ body {
   margin-bottom: 1.5vh;
   font-family: "Roboto", serif;
   font-weight: 500;
-  font-size: 4vh;
+  font-size: 30px;
 }
 
 .page li {

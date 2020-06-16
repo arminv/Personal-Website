@@ -25,6 +25,17 @@
       </vs-col>
     </vs-row>
     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
+      <vs-button color="primary" type="filled" class="resume-button"
+        ><a
+          class="resume"
+          href="https://github.com/arminv/resume/blob/master/Armin_Varshokar_Resume.PDF"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Download Resume</a
+        ></vs-button
+      >
+    </vs-col>
+    <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
       <h2>Tools I Use</h2>
     </vs-col>
     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
@@ -94,6 +105,7 @@
               >icons by
               <a
                 href="https://icons8.com/icon/24895/npm"
+                target="_blank"
                 rel="noopener noreferrer"
                 >Icons8</a
               ></span
@@ -130,11 +142,11 @@ export default {
 
 <style lang="css" scoped>
 h2 {
-  font-size: 3vh;
+  font-size: 26px;
   color: var(--gold-color);
 }
 .intro {
-  font-size: 2.5vh;
+  font-size: 22px;
   line-height: 1.5em;
   margin: 2.5rem 3.5rem 0rem 3.5rem;
   padding-bottom: 2em;
@@ -160,5 +172,13 @@ h2 {
 
 .icon-credit {
   margin-top: 3rem;
+}
+
+.resume-button {
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+.resume {
+  color: var(--content-color);
 }
 </style>
