@@ -25,15 +25,18 @@
       </vs-col>
     </vs-row>
     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
-      <vs-button color="primary" type="filled" class="resume-button"
-        ><a
+      <div>
+        <a
           class="resume"
           href="https://github.com/arminv/resume/blob/master/Armin_Varshokar_Resume.PDF"
           target="_blank"
           rel="noopener noreferrer"
-          >Download Resume</a
-        ></vs-button
-      >
+        >
+          <vs-button color="primary" type="filled" class="resume-button"
+            >Download Resume</vs-button
+          >
+        </a>
+      </div>
     </vs-col>
     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
       <h2>Tools I Use</h2>
