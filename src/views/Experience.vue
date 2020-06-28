@@ -21,7 +21,7 @@
               title="Associate Product Manager"
               description="<li>Collaborated with both internal and external software teams to launch features
               on time and within budget</li><li>Performed software testing to uncover bugs and troubleshoot issues prior to
-              application launch.</li><li>Fixed bugs and improved overall user experience</li><li>Developed product documentation to communicate key components of
+              application launch</li><li>Fixed bugs and improved overall user experience</li><li>Developed product documentation to communicate key components of
               upcoming features to software teams</li><li>Collaborated on all stages of development lifecycle, from requirement
               gathering to production releases</li><li>Translated technical concepts and information into terms all parties could easily
               comprehend</li>"
