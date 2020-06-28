@@ -3,8 +3,8 @@
 Content:
 
 - Projects : Improve content of each project and describe the dev process for each
-- resume : Upload on AWS and link it on Experience/About page.
-- Experience : Improve descriptions
+- ~~Experience : Improve descriptions~~
+- ~~resume : Upload on AWS and link it on Experience/About page.~~
 
 Design :
 

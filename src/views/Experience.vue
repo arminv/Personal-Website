@@ -19,7 +19,12 @@
             <vue-timeline-update
               :date="new Date('2019-08-01')"
               title="Associate Product Manager"
-              description="<li>Overseeing feature development</li><li>Reporting (via JIRA) and fixing bugs (in React)</li><li>Coordinating with remote teams</li><li>Quality Assurance (QA)</li>"
+              description="<li>Collaborated with both internal and external software teams to launch features
+              on time and within budget</li><li>Performed software testing to uncover bugs and troubleshoot issues prior to
+              application launch.</li><li>Fixed bugs and improved overall user experience</li><li>Developed product documentation to communicate key components of
+              upcoming features to software teams</li><li>Collaborated on all stages of development lifecycle, from requirement
+              gathering to production releases</li><li>Translated technical concepts and information into terms all parties could easily
+              comprehend</li>"
               icon="code"
               color="red"
               :thumbnail="resolve_img_url('finneo.png')"
@@ -34,7 +39,7 @@
             <vue-timeline-update
               :date="new Date('2018-12-01')"
               title="Financial Analyst"
-              description="<li>Commercial real estate underwriting</li><li>Optimized capital structure of various projects (construction, land, etc.)</li><li>Helped clients secure $20MM in commercial real estate funds (mortgages)</li>"
+              description="<li>Commercial real estate underwriting</li><li>Originated, reviewed, processed, closed and administered customer loan proposals</li><li>Assisted clients with securing $20MM in commercial real estate funds</li><li>Developed and maintained client relationships</li>"
               icon="edit"
               color="red"
               :thumbnail="resolve_img_url('capstack.png')"
