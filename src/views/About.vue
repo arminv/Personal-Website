@@ -9,7 +9,7 @@
             commercial real estate financing startup.<br /><br />I graduated
             with a degree in finance, pursued professional degrees following
             that and started working in the industry as an analyst.<br /><br />
-            About 3 years ago I became interested in programming while I was
+            About 4 years ago I became interested in programming while I was
             looking for a new hobby and decided to learn more on my own. I never
             stopped learning since then. <br /><br />What started as a hobby
             then has now turned into my passion and plays a big role in my
@@ -69,8 +69,16 @@
             name="Redux"
           />
           <Logo
+            src="https://img.icons8.com/ios-filled/96/000000/sass.png"
+            name="Sass"
+          />
+          <Logo
             src="https://img.icons8.com/color/96/000000/firebase.png"
             name="Firebase"
+          />
+          <Logo
+            src="https://img.icons8.com/color/96/000000/mongodb.png"
+            name="MongoDB"
           />
           <Logo
             src="https://img.icons8.com/color/96/000000/python.png"
