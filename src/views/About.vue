@@ -6,7 +6,7 @@
         <p class="intro">
           <span>
             I am an associate product manager and front-end developer at Finneo,
-            commercial real estate financing startup.<br /><br />I graduated
+            a commercial real estate financing startup.<br /><br />I graduated
             with a degree in finance, pursued professional degrees following
             that and started working in the industry as an analyst.<br /><br />
             About 4 years ago I became interested in programming while I was
