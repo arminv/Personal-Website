@@ -28,7 +28,7 @@ export default [
   {
     title: "Movie Finder App",
     description: `
-            Search and find new movies to watch.
+            Search and find new movies to watch
             `,
     src: "movieapp.png",
     tags: [
