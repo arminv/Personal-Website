@@ -44,18 +44,23 @@ export default [
       ],
       [
         "var(--content-color)",
-        "React Router",
-        "https://reacttraining.com/images/react-router.svg"
+        "MongoDB",
+        "https://p.kindpng.com/picc/s/385-3850482_mongodb-logo-png-transparent-png.png"
       ],
       [
         "var(--content-color)",
-        "Lodash",
-        "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Lodash.svg/1200px-Lodash.svg.png"
+        "Node",
+        "https://nodejs.org/static/images/logo-hexagon-card.png"
       ],
       [
         "var(--content-color)",
-        "Axios",
-        "https://miro.medium.com/max/1400/1*80J2Wa21DYXxMbbtBziJHg.png"
+        "Express",
+        "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png"
+      ],
+      [
+        "var(--content-color)",
+        "Heroku",
+        "data:image/png;base64,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"
       ]
     ],
     github: "https://github.com/arminv/Movie-App",
