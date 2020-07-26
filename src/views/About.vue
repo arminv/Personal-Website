@@ -28,7 +28,7 @@
       <div>
         <a
           class="resume"
-          href="https://github.com/arminv/resume/blob/master/Armin_Varshokar_Resume.PDF"
+          href="https://github.com/arminv/resume/blob/master/Armin_Varshokar_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
