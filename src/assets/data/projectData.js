@@ -64,7 +64,7 @@ export default [
       ]
     ],
     github: "https://github.com/arminv/Movie-App",
-    link: "https://react-movies-list.netlify.app"
+    link: "https://frozen-reaches-76353.herokuapp.com/"
   },
   {
     title: "COVID-19 Tracker",
