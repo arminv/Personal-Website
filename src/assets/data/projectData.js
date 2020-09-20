@@ -13,13 +13,13 @@ export default [
       ],
       [
         "var(--content-color)",
-        "Vuesax",
-        "https://raw.githubusercontent.com/lusaxweb/vuesax/master/public/vuesax-logo-beta.png"
+        "Firebase",
+        "https://avatars2.githubusercontent.com/u/1335026?s=200&v=4"
       ],
       [
         "var(--content-color)",
-        "Firebase",
-        "https://avatars2.githubusercontent.com/u/1335026?s=200&v=4"
+        "Element",
+        "https://cdn.worldvectorlogo.com/logos/element-ui-1.svg"
       ]
     ],
     // github: "https://github.com/arminv/note-keeper-app",
