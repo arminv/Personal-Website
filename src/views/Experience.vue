@@ -37,7 +37,7 @@
             rel="noopener noreferrer"
           >
             <vue-timeline-update
-              :date="new Date('2018-12-01')"
+              :date="new Date('2017-12-01')"
               title="Financial Analyst"
               description="<li>Commercial real estate underwriting</li><li>Originated, reviewed, processed, closed and administered customer loan proposals</li><li>Assisted clients with securing $20MM in commercial real estate funds</li><li>Developed and maintained client relationships</li>"
               icon="edit"
@@ -52,7 +52,7 @@
             rel="noopener noreferrer"
           >
             <vue-timeline-update
-              :date="new Date('2018-11-01')"
+              :date="new Date('2017-11-01')"
               title="Volunteer - PyCon Canada"
               icon="flag"
               color="red"
@@ -66,7 +66,7 @@
             rel="noopener noreferrer"
           >
             <vue-timeline-update
-              :date="new Date('2018-11-01')"
+              :date="new Date('2017-11-01')"
               title="Open-Source Contributor - Pandas"
               icon="code"
               color="red"

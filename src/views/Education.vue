@@ -37,7 +37,7 @@
           <vue-timeline-update
             :date="new Date('2015-08-01')"
             title="B.Sc. with Honours (Finance)"
-            description="<li>First Class Honours (1:1) - Cumulative GPA of 3.7/4.0</li>"
+            description="<li>First Class Honours (1:1) - Cumulative GPA of 3.7/4.0</li><li>Graduated in Top 10% of Class</li><li>Dissertation: Quantitative Easing (QE) in the U.K. : Channels and Impacts</li>"
             icon="done"
             color="blue"
             :thumbnail="resolve_img_url('cass.png')"
