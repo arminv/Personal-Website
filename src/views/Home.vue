@@ -29,7 +29,7 @@
               caret-animation="blink"
             >
             </vue-typer></span
-          >. I love desgning and building
+          >. I love designing and building
           <span class="gold"
             ><vue-typer
               :text="['software']"
