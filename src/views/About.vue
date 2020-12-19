@@ -5,7 +5,7 @@
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <p class="intro">
           <span>
-            I am a Product Manager and Full-Stack Developer at Finneo, a
+            I am a Product Manager and Full Stack Developer at Finneo, a
             commercial real estate financing startup.<br /><br />I graduated
             with a degree in finance, pursued professional degrees following
             that and started working in the industry as an analyst.<br /><br />

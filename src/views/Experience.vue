@@ -18,7 +18,7 @@
           >
             <vue-timeline-update
               :date="new Date('2019-08-01')"
-              title="Product Manager"
+              title="Product Manager / Full Stack Developer"
               description="<li>Fixed bugs and improved overall user experience (B2B SaaS application – tech stack: React, Redux, Redux-Saga, Node, Feathers JS, MongoDB, PostgreSQL)</li><li>Collaborated with both internal and external software teams to launch features
               on time and within budget</li><li>Performed software testing to uncover bugs and troubleshoot issues prior to
               application launch</li><li>Fixed bugs and improved overall user experience</li><li>Developed product documentation to communicate key components of
