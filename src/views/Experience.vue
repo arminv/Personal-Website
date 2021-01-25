@@ -11,13 +11,28 @@
       >
         <div class="timeline">
           <a
+            href="https://www.senseilabs.com/"
+            target="_blank"
+            alt="senseilabs"
+            rel="noopener noreferrer"
+          >
+            <vue-timeline-update
+              :date="new Date('2021-01-25')"
+              title="Frontend Engineer"
+              description=""
+              icon="code"
+              color="red"
+              :thumbnail="resolve_img_url('SenseiLabs.png')"
+            />
+          </a>
+          <a
             href="https://finneotech.com"
             target="_blank"
             alt="finneo"
             rel="noopener noreferrer"
           >
             <vue-timeline-update
-              :date="new Date('2019-08-01')"
+              :date="new Date('2020-12-01')"
               title="Product Manager / Full Stack Developer"
               description="<li>Fixed bugs and improved overall user experience (B2B SaaS application – tech stack: React, Redux, Redux-Saga, Node, Feathers JS, MongoDB, PostgreSQL)</li><li>Collaborated with both internal and external software teams to launch features
               on time and within budget</li><li>Performed software testing to uncover bugs and troubleshoot issues prior to
