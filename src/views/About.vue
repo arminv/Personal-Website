@@ -5,10 +5,11 @@
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <p class="intro">
           <span>
-            I am a Product Manager and Full Stack Developer at Finneo, a
-            commercial real estate financing startup.<br /><br />I graduated
-            with a degree in finance, pursued professional degrees following
-            that and started working in the industry as an analyst.<br /><br />
+            I am a Frontend Engineer at Sensei Labs. We help the world's top
+            professional services organizations deliver transformations,
+            procurement, and M&A transactions.<br /><br />I graduated with a
+            degree in finance, pursued professional degrees following that and
+            started working in the industry as an analyst.<br /><br />
             About 5 years ago I became interested in programming while I was
             looking for a new hobby and decided to learn more on my own. I never
             stopped learning since then. <br /><br />What started as a hobby
