@@ -58,6 +58,10 @@
             name="JavaScript"
           />
           <Logo
+            src="https://img.icons8.com/color/96/000000/typescript.png"
+            name="TypeScript"
+          />
+          <Logo
             src="https://img.icons8.com/color/96/000000/vue-js.png"
             name="Vue"
           />
@@ -70,8 +74,13 @@
             name="Redux"
           />
           <Logo
-            src="https://img.icons8.com/ios-filled/96/000000/sass.png"
-            name="Sass"
+            src="https://avatars.githubusercontent.com/u/2159051?v=4"
+            name="LitElement"
+          />
+          <Logo src="https://img.icons8.com/color/2x/sass.png" name="Sass" />
+          <Logo
+            src="https://img.icons8.com/color/2x/graphql.png"
+            name="GraphQL"
           />
           <Logo
             src="https://img.icons8.com/color/96/000000/firebase.png"
@@ -92,18 +101,6 @@
           <Logo
             src="https://img.icons8.com/color/96/000000/git.png"
             name="Git"
-          />
-          <Logo
-            src="https://img.icons8.com/color/96/000000/npm.png"
-            name="npm"
-          />
-          <Logo
-            src="https://img.icons8.com/color/96/000000/bitbucket.png"
-            name="Bitbucket"
-          />
-          <Logo
-            src="https://img.icons8.com/color/86/000000/jira.png"
-            name="JIRA"
           />
         </vs-row>
         <vs-row>
