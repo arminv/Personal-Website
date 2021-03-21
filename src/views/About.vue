@@ -9,7 +9,7 @@
             professional services organizations deliver transformations,
             procurement, and M&A transactions.<br /><br />I graduated with a
             degree in finance, pursued professional degrees following that and
-            started working in the industry as an analyst.<br /><br />
+            started working in the industry as a Financial Analyst.<br /><br />
             About 5 years ago I became interested in programming while I was
             looking for a new hobby and decided to learn more on my own. I never
             stopped learning since then. <br /><br />What started as a hobby
