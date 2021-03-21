@@ -86,7 +86,7 @@
               icon="code"
               color="red"
               :thumbnail="resolve_img_url('pandas.png')"
-              description="<li>Got all 4 of my Pull Requests merged into pandas</li>"
+              description="<li>All 4 PRs merged into pandas</li>"
               isLast
             />
           </a>
