@@ -73,7 +73,10 @@
             src="https://img.icons8.com/color/96/000000/redux.png"
             name="Redux"
           />
-          <Logo src="https://lit.dev/images/logo.svg" name="Lit" />
+          <Logo
+            src="https://avatars3.githubusercontent.com/u/2159051?v=4"
+            name="Lit"
+          />
           <Logo src="https://img.icons8.com/color/2x/sass.png" name="Sass" />
           <Logo
             src="https://img.icons8.com/color/2x/graphql.png"
