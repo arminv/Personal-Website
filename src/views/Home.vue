@@ -154,4 +154,10 @@ export default {
   width: 3px;
   background-color: var(--content-color);
 }
+
+// To fix Chrome issue with navbar:
+.vs-navbar.nabarx.vs-navbar-null.vs-navbar-color-transparent {
+  flex-direction: column;
+  align-items: flex-start;
+}
 </style>
