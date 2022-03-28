@@ -23,7 +23,7 @@
               <li>Added unit tests to increase overall code coverage and help achieve team and departmental OKRs</li>
               <li>Refactored and optimized multiple product features as the only FE engineer on the Scrum team</li>
               <li>Maintained legacy code written in AngularJS and Mithril.js</li>
-              <li>Authored technical and non-technical documentation (internal wiki) to explain new features and clarify any regressions</li>
+              <li>Authored technical and non-technical documentation (internal wiki) to explain new features</li>
               <li>Participated in Design and Analysis (D&A) meetings to brainstorm, provide estimates on new epics and their feasibility, and help T-shirt size future work</li>
               <li>Showcased Scrum team's work to the whole company during demos</li>"
               icon="code"
