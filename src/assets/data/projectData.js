@@ -22,8 +22,7 @@ export default [
         "https://cdn.worldvectorlogo.com/logos/element-ui-1.svg"
       ]
     ],
-    // github: "https://github.com/arminv/note-keeper-app",
-    link: "https://thema.design"
+    link: "https://themer-cc59a.web.app/"
   },
   {
     title: "Movie Finder App",
