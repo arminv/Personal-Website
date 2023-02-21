@@ -14,7 +14,7 @@
             looking for a new hobby and decided to learn more on my own. I never
             stopped learning since then. <br /><br />What started as a hobby
             then has now turned into my passion and plays a major role in my
-            everyday life. It has been an extremely exctiting journey and I have
+            everyday life. It has been an extremely exciting journey and I have
             been enjoying every day of it.<br />
           </span>
           <br />
