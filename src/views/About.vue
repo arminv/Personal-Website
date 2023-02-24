@@ -5,11 +5,11 @@
       <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="12">
         <p class="intro">
           <span>
-            I am a Frontend Engineer at Sensei Labs. We help the world's top
-            professional services organizations deliver transformations,
-            procurement, and M&A transactions.<br /><br />I graduated with a
-            degree in finance, pursued professional degrees following that and
-            started working in the industry as a Financial Analyst.<br /><br />
+            I am a full stack software engineer who is eager to contribute to
+            team success through hard work, attention to detail and excellent
+            communication skills.<br /><br />I graduated with a degree in
+            finance, pursued professional degrees following that and started
+            working in the industry as a Financial Analyst.<br /><br />
             About 5 years ago I became interested in programming while I was
             looking for a new hobby and decided to learn more on my own. I never
             stopped learning since then. <br /><br />What started as a hobby
