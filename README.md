@@ -2,6 +2,6 @@
 
 # [Personal Website](https://www.arminvarshokar.com/#/)
 
-I created this website by using [Vue.js](https://vuejs.org), [Vuesax](https://lusaxweb.github.io/vuesax/) and [Vuetify](https://vuetifyjs.com/en/). It is currently deployed on [Netlify](https://www.netlify.com).
+I created this website by using [Vue.js](https://vuejs.org), [Vuesax](https://lusaxweb.github.io/vuesax/) and [Vuetify](https://vuetifyjs.com/en/).
 
 ![Alt text](Demo.png?raw=true "Portfolio")
